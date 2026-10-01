@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1800" viewBox="0 0 1200 1800">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#16213e"/>
+<stop offset="50%" stop-color="#1f5f74"/>
+<stop offset="100%" stop-color="#0f766e"/>
+</linearGradient>
+</defs>
+<rect width="1200" height="1800" fill="url(#bg)"/>
+<circle cx="930" cy="300" r="360" fill="#ffffff" opacity="0.07"/>
+<circle cx="200" cy="1510" r="430" fill="#ffffff" opacity="0.05"/>
+<g stroke="#ffffff" stroke-opacity="0.18" fill="none" stroke-width="4">
+<path d="M70 1200 L240 1050 L410 1110 L570 900 L740 970 L930 720 L1100 820"/>
+<path d="M90 1380 L270 1250 L450 1310 L630 1130 L810 1190 L1040 980"/>
+</g>
+<g fill="#ffffff" opacity="0.60">
+<circle cx="70" cy="1200" r="10"/>
+<circle cx="240" cy="1050" r="10"/>
+<circle cx="410" cy="1110" r="10"/>
+<circle cx="570" cy="900" r="10"/>
+<circle cx="740" cy="970" r="10"/>
+<circle cx="930" cy="720" r="10"/>
+<circle cx="1100" cy="820" r="10"/>
+</g>
+<rect x="90" y="150" width="130" height="12" rx="6" fill="#55d6c2"/>
+<text x="90" y="285" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="700">
+Regulation
+</text>
+<text x="90" y="375" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="700">
+of Financial
+</text>
+<text x="90" y="465" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="700">
+Markets &amp;
+</text>
+<text x="90" y="555" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="76" font-weight="700">
+Institutions
+</text>
+<text x="95" y="635" fill="#bce8df" font-family="Arial, Helvetica, sans-serif" font-size="30">
+Financial Regulation and the Nigerian Financial System
+</text>
+<line x1="95" y1="705" x2="1080" y2="705" stroke="#ffffff" stroke-opacity="0.30" stroke-width="2"/>
+<text x="95" y="790" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="600">
+Dr. Ahmed Umar / Dr. Micah Dogara
+</text>
+<text x="95" y="850" fill="#bce8df" font-family="Arial, Helvetica, sans-serif" font-size="28">
+MFE 813
+</text>
+<text x="95" y="1700" fill="#ffffff" opacity="0.70" font-family="Arial, Helvetica, sans-serif" font-size="24">
+KASU Digital Library
+</text>
+</svg>

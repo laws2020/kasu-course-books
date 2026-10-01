@@ -1,0 +1,34 @@
+.kasu-primary-button,
+.kasu-secondary-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 0 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.kasu-primary-button {
+  border: 1px solid #172033;
+  background: #172033;
+  color: #ffffff;
+}
+
+.kasu-secondary-button {
+  border: 1px solid #d5dee5;
+  background: #ffffff;
+  color: #34465b;
+}
+
+.kasu-primary-button:hover {
+  background: #26384e;
+}
+
+.kasu-secondary-button:hover {
+  border-color: #147487;
+  color: #147487;
+}

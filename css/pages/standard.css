@@ -1,0 +1,44 @@
+.library-main {
+  min-width: 0;
+  padding: 0 32px 60px;
+  background: #ffffff;
+}
+
+.library-page-content {
+  width: min(1100px, 100%);
+  margin: 0 auto;
+}
+
+.library-page-heading {
+  margin: 38px 0 28px;
+}
+
+.library-page-heading .eyebrow {
+  color: #147487;
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+
+.library-page-heading h1 {
+  margin: 8px 0 0;
+  color: #172033;
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: -.03em;
+}
+
+.library-page-heading p {
+  max-width: 720px;
+  margin: 9px 0 0;
+  color: #69798b;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+@media (max-width: 720px) {
+  .library-main {
+    padding: 0 16px 45px;
+  }
+}

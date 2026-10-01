@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1800" viewBox="0 0 1200 1800">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#092f4f"/>
+<stop offset="50%" stop-color="#0b6174"/>
+<stop offset="100%" stop-color="#123b68"/>
+</linearGradient>
+</defs>
+<rect width="1200" height="1800" fill="url(#bg)"/>
+<circle cx="930" cy="260" r="320" fill="#ffffff" opacity="0.08"/>
+<circle cx="220" cy="1550" r="420" fill="#ffffff" opacity="0.05"/>
+<g stroke="#ffffff" stroke-opacity="0.20" fill="none" stroke-width="4">
+<path d="M80 1180 L260 1010 L430 1080 L610 830 L790 910 L1060 620"/>
+<path d="M100 1370 L290 1210 L470 1280 L650 1080 L850 1140 L1110 870"/>
+</g>
+<g fill="#ffffff" opacity="0.65">
+<circle cx="80" cy="1180" r="10"/>
+<circle cx="260" cy="1010" r="10"/>
+<circle cx="430" cy="1080" r="10"/>
+<circle cx="610" cy="830" r="10"/>
+<circle cx="790" cy="910" r="10"/>
+<circle cx="1060" cy="620" r="10"/>
+</g>
+<rect x="90" y="150" width="130" height="12" rx="6" fill="#58d0bd"/>
+<text x="90" y="290" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="82" font-weight="700">Introduction</text>
+<text x="90" y="385" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="82" font-weight="700">to Risk</text>
+<text x="90" y="480" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="82" font-weight="700">Management</text>
+<text x="95" y="575" fill="#bfe8e1" font-family="Arial, Helvetica, sans-serif" font-size="32">Concepts, Processes, Approaches and Reporting</text>
+<line x1="95" y1="650" x2="1080" y2="650" stroke="#ffffff" stroke-opacity="0.30" stroke-width="2"/>
+<text x="95" y="735" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="600">Dr. Peter Adamu</text>
+<text x="95" y="790" fill="#bfe8e1" font-family="Arial, Helvetica, sans-serif" font-size="28">MFE 804</text>
+<text x="95" y="1700" fill="#ffffff" opacity="0.70" font-family="Arial, Helvetica, sans-serif" font-size="24">KASU Digital Library</text>
+</svg>
