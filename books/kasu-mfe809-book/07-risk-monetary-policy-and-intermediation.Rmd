@@ -1,0 +1,57 @@
+# Risk Management, Monetary Policy and Financial Intermediation
+
+## Risk Management in Banking
+
+The major banking risks identified in the course outline are:
+
+- credit risk;
+- liquidity risk;
+- market risk; and
+- operational risk.
+
+### Credit Risk
+
+Credit risk arises when a borrower fails to meet agreed obligations. Banks manage it through credit assessment, monitoring, diversification, collateral where appropriate, provisioning, and risk limits.
+
+### Liquidity Risk
+
+Liquidity risk concerns the ability to meet obligations when due. Banks must manage the timing and liquidity of assets and liabilities.
+
+### Market Risk
+
+Market risk reflects losses associated with changes in interest rates, exchange rates, prices, or other market variables.
+
+### Operational Risk
+
+Operational risk can arise from failures in people, processes, systems, controls, or external events.
+
+## Basel Frameworks
+
+The course outline introduces the Basel Accords as an important reference point for bank capital and risk management. Students should connect capital requirements, risk measurement, supervision, and market discipline when studying banking regulation.
+
+## Monetary Policy
+
+Monetary policy uses instruments to influence financial conditions, money, credit, and macroeconomic outcomes.
+
+The course outline identifies:
+
+- monetary-policy instruments;
+- transmission mechanisms;
+- the Monetary Policy Committee; and
+- effects on banks and the wider economy.
+
+## Financial Intermediation
+
+Financial intermediation connects surplus and deficit units. Banks and other intermediaries transform maturities, reduce transaction costs, process information, and allocate funds.
+
+## Financial Inclusion
+
+Financial inclusion focuses on improving access to appropriate financial products and services. The course material links inclusion to banking, mobile finance, fintech, and digital payments.
+
+## Review Questions
+
+1. Distinguish credit risk, liquidity risk, market risk, and operational risk.
+2. Explain why capital requirements matter for banks.
+3. Describe major channels of monetary-policy transmission.
+4. Explain financial intermediation.
+5. Discuss the relationship between fintech and financial inclusion.

@@ -1,0 +1,46 @@
+# Banking Reforms, Innovation and Contemporary Issues
+
+## Banking Reforms
+
+The supplied course outline identifies banking consolidation in 2004/2005, post-consolidation reforms, banking crises and resolutions, and intervention policies involving AMCON as important topics.
+
+The lecture notes also identify capital reform, electronic banking, cashless-policy initiatives, the Bank Verification Number, the Treasury Single Account, financial inclusion initiatives, and the eNaira as important developments in the modern Nigerian financial system.
+
+## Electronic Banking
+
+Electronic banking includes internet banking, mobile banking, ATMs, point-of-sale transactions, and digital payment services.
+
+## Financial Innovation
+
+The course material identifies fintech platforms and digital payment services as examples of financial innovation. Innovation can improve convenience, access, and speed, while creating new challenges in cybersecurity, consumer protection, operational resilience, and regulation.
+
+## Contemporary Issues
+
+The course outline highlights:
+
+- non-performing loans;
+- bank distress and failure;
+- cryptocurrency and regulation;
+- sustainability and green finance;
+- cybersecurity and fraud management; and
+- international banking.
+
+## International Banking
+
+International banking involves cross-border financial transactions, foreign-exchange activities, international financing, and relationships with global institutions and markets.
+
+## Global Financial Institutions
+
+The supplied MFE 813 material introduces international regulatory and development institutions including the International Monetary Fund, the World Bank/IBRD, and the African Development Bank.
+
+## Economic Stabilization
+
+The source material identifies monetary policy, fiscal policy, and direct controls as broad categories of economic stabilization measures.
+
+## Review Questions
+
+1. Explain the objectives of banking consolidation.
+2. Discuss the benefits and risks of electronic banking.
+3. What contemporary issues are affecting Nigerian banking?
+4. Discuss the role of fintech in financial-sector development.
+5. Explain the importance of international financial institutions.

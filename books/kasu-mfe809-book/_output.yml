@@ -1,0 +1,30 @@
+bookdown::gitbook:
+  css: style.css
+  config:
+    toc:
+      collapse: section
+    toolbar:
+      position: fixed
+    search: true
+    fontsettings:
+      theme: white
+      family: sans
+      size: 2
+    edit: null
+    sharing: no
+    info: true
+    download:
+      - ["financial-system-and-the-practice-of-banking-in-nigeria.pdf", "PDF"]
+      - ["financial-system-and-the-practice-of-banking-in-nigeria.epub", "EPUB"]
+      - ["financial-system-and-the-practice-of-banking-in-nigeria.docx", "Word"]
+
+bookdown::word_document2:
+  toc: true
+  number_sections: true
+
+bookdown::epub_book:
+  toc: true
+
+bookdown::pdf_book:
+  keep_tex: true
+  toc: true

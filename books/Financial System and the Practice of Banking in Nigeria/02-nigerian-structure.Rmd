@@ -1,0 +1,236 @@
+# Structure of the Nigerian Financial System {#chap-structure}
+  
+## Introduction  
+  
+A financial system is a critical pillar of any modern economy. It  
+provides the institutional and operational framework through which  
+funds are mobilized from *surplus* economic units (savers) and  
+allocated to *deficit* units (investors). Without an efficient  
+financial system, economic growth, capital formation, and development  
+would be severely constrained.  
+  
+::: {.rmdnote}  
+In developing economies like Nigeria, the financial system plays an  
+even more strategic role in addressing structural imbalances,  
+mobilizing domestic savings, and supporting investment-led growth.  
+:::  
+  
+## Meaning of Financial System  
+  
+::: {.definition #def-finsys name="Financial system"}  
+A financial system is a network of financial institutions, financial  
+markets, financial instruments, and regulatory authorities that  
+interact to facilitate the flow of funds within an economy.  
+:::  
+  
+According to @mishkin, the financial system can be understood as the  
+structure that enables the transfer of funds from lenders to  
+borrowers.  
+  
+### Key features of a financial system  
+  
+- Intermediation between savers and investors  
+- Risk management and diversification  
+- Price discovery of financial assets  
+- Liquidity provision  
+- Facilitation of payments  
+  
+## Functions of Financial Systems  
+  
+The financial system performs several essential functions that sustain  
+economic activity.  
+  
+### Mobilization of savings  
+  
+- Encourages individuals and institutions to save  
+- Channels idle funds into productive uses  
+- Promotes capital accumulation  
+  
+### Allocation of resources  
+  
+- Directs funds to the most productive sectors  
+- Enhances efficiency in resource utilization  
+- Supports economic specialization  
+  
+### Financial intermediation  
+  
+- Bridges the gap between surplus and deficit units  
+- Reduces transaction and information costs  
+- Examples include banks and investment firms  
+  
+### Risk management  
+  
+- Provides instruments such as insurance and derivatives  
+- Facilitates risk diversification  
+- Helps manage uncertainty in economic activities  
+  
+### Facilitation of payments and transactions  
+  
+- Provides payment systems (cash, electronic transfers, digital  
+  payments)  
+- Enhances trade and commerce  
+  
+### Liquidity creation  
+  
+- Converts illiquid assets into liquid liabilities  
+- Enables quick access to funds  
+  
+### Information provision  
+  
+- Generates and disseminates financial information  
+- Supports investment decisions  
+  
+### Implementation of monetary policy  
+  
+- Works through institutions like the Central Bank of Nigeria  
+- Influences money supply, inflation, and interest rates  
+  
+## Components of Financial Systems  
+  
+A financial system comprises four major components, summarized in  
+Table \@ref(tab:components).  
+  
+```{r components, echo=FALSE}  
+comp <- data.frame(  
+  Component = c("Financial institutions", "Financial markets",  
+                "Financial instruments", "Financial regulators"),  
+  Role = c("Facilitate financial transactions",  
+           "Markets where financial instruments are traded",  
+           "Assets traded in financial markets",  
+           "Oversee and regulate the financial system"),  
+  `Nigerian examples` = c("Deposit money banks, microfinance banks, insurance companies, pension funds, DFIs",  
+                          "Money market (T-bills, commercial papers); capital market (shares, bonds) via NGX",  
+                          "Equities, bonds, treasury bills, derivatives",  
+                          "CBN, NDIC, SEC")  
+)  
+knitr::kable(comp, caption = "The four components of a financial system",  
+             booktabs = TRUE)  
+```  
+  
+### Financial institutions  
+  
+Organizations that facilitate financial transactions.  
+  
+**Types:** Deposit Money Banks (commercial banks), microfinance banks,  
+insurance companies, pension funds, and development finance  
+institutions.  
+  
+**Functions:** accepting deposits, providing loans, and offering  
+financial advisory services.  
+  
+### Financial markets  
+  
+Markets where financial instruments are traded:  
+  
+- **Money market** (short-term funds): treasury bills, commercial  
+  papers.  
+- **Capital market** (long-term funds): shares (equities), bonds.  
+  
+A key institution is the **Nigerian Exchange Group (NGX)**, which  
+facilitates trading in securities.  
+  
+### Financial instruments  
+  
+Assets traded in financial markets — equities (shares), bonds,  
+treasury bills, and derivatives — characterized by **risk**,  
+**return**, **liquidity**, and **maturity**.  
+  
+### Financial regulators  
+  
+Authorities that oversee the financial system. In Nigeria these  
+include the **Central Bank of Nigeria (CBN)**, the **Nigeria Deposit  
+Insurance Corporation (NDIC)**, and the **Securities and Exchange  
+Commission (SEC)**. Their functions are to maintain financial  
+stability, protect investors, and prevent financial crises.  
+  
+## Financial System and Economic Development  
+  
+The relationship between financial systems and economic development is  
+both theoretical and empirical.  
+  
+### Theoretical perspectives  
+  
+```{r hypotheses, echo=FALSE}  
+hyp <- data.frame(  
+  Hypothesis = c("Supply-leading", "Demand-following", "Bidirectional"),  
+  Proposition = c(  
+    "Financial development leads economic growth; financial institutions stimulate investment",  
+    "Economic growth creates demand for financial services",  
+    "Financial development and economic growth reinforce each other")  
+)  
+knitr::kable(hyp, caption = "Hypotheses on the finance–growth nexus",  
+             booktabs = TRUE)  
+```  
+  
+### Channels through which financial systems promote growth  
+  
+1. **Capital formation** — mobilizes savings for investment  
+2. **Technological innovation** — funds research and development  
+3. **Efficiency in resource allocation** — directs funds to  
+   high-return projects  
+4. **Poverty reduction** — enhances access to credit (financial  
+   inclusion)  
+5. **Employment generation** — supports business expansion  
+  
+### The Nigerian context  
+  
+- Expansion of banking services has improved access to finance  
+- Growth of fintech (e.g., OPay) has enhanced financial inclusion  
+- Financial reforms have strengthened the banking sector  
+  
+## Comparative Financial Systems  
+  
+Financial systems differ across countries depending on institutional  
+structure, level of development, and policy orientation.  
+  
+### Bank-based vs market-based systems  
+  
+- **Bank-based** — dominated by banks, which provide most financing.  
+  Examples: Germany, Japan.  
+- **Market-based** — dominated by capital markets; firms raise funds  
+  through stocks and bonds. Examples: United States, United Kingdom.  
+  
+### Developed vs developing financial systems  
+  
+| Developed systems | Developing systems (e.g., Nigeria) |  
+|:------------------|:-----------------------------------|  
+| Highly sophisticated markets | Limited access to finance |  
+| Strong regulatory frameworks | Shallow capital markets |  
+| Advanced financial instruments | Higher vulnerability to shocks |  
+  
+### Formal vs informal financial systems  
+  
+- **Formal** — regulated institutions (banks, insurance firms)  
+- **Informal** — rotating savings groups (*Esusu*, *Ajo*), money  
+  lenders  
+  
+### Islamic vs conventional financial systems  
+  
+- **Islamic** — prohibits interest (*riba*); based on profit-sharing  
+- **Conventional** — interest-based lending  
+  
+## Challenges of Financial Systems in Developing Economies  
+  
+- Financial exclusion  
+- Weak regulatory frameworks  
+- Poor infrastructure  
+- High level of non-performing loans  
+- Limited access to long-term finance  
+  
+## Conclusion  
+  
+The financial system is indispensable to economic development, serving  
+as the backbone of resource allocation, investment, and economic  
+stability. A well-developed financial system enhances growth, reduces  
+poverty, and improves overall economic efficiency. However, its  
+effectiveness depends on sound regulation, strong institutions, and  
+continuous innovation.  
+  
+## Suggested Examination Questions {.unnumbered}  
+  
+1. Discuss the functions of a financial system in economic  
+   development.  
+2. Critically analyze the components of the Nigerian financial system.  
+3. Compare bank-based and market-based financial systems.  
+4. Evaluate the role of financial systems in promoting economic growth  
+   in developing countries.

@@ -1,0 +1,184 @@
+# Sources of Instability and Regulatory Responses {#chap-instability}  
+  
+## Sources of Instability in the Banking System  
+  
+A number of factors — exogenous and endogenous — can precipitate  
+instability. Exogenous factors include macroeconomic shocks arising  
+from financial liberalisation, globalisation and rapid technological  
+change; internal factors include inappropriate corporate governance  
+and inadequate regulatory and supervisory capacity.  
+  
+### Macroeconomic environment  
+  
+The macroeconomic environment comprises factors that impact the  
+banking system favourably or adversely. In a sluggish or recessionary  
+economy, business opportunities shrink and banks may adopt protective  
+strategies harmful to the system. A sound banking system is easier to  
+achieve under a stable macroeconomic environment — and conversely, an  
+unsound banking system can trigger macroeconomic instability. The  
+relationship is therefore symbiotic.  
+  
+### Asymmetric information  
+  
+Information asymmetry results in mismatched financial contracts and  
+can precipitate bank runs. Depositors have little information about  
+the soundness of banks and the safety of their deposits, so  
+misinformation can cause panic withdrawals, bank runs, contagion and  
+loss of credit confidence. Similarly, poor loan selection driven by  
+information asymmetry can fund unviable projects and produce a high  
+volume of non-performing loans.  
+  
+### Weak management  
+  
+Poor management is reflected in poor asset quality, insider abuse,  
+inadequate internal controls, fraud, unethical conduct, management  
+squabbles and high staff turnover. Weak risk-control systems produce  
+large undetected balance-sheet mismatches and unrealisable losses.  
+  
+### Inappropriate corporate governance structures  
+  
+::: {.definition #def-cg name="Corporate governance"}  
+Corporate governance refers to the extent to which companies are run  
+in an open and honest manner — incorporating transparency, openness,  
+accurate reporting and compliance with statutory regulations.  
+:::  
+  
+Historical antecedents indicate that financial crisis is a direct  
+consequence of poor corporate governance in banks; the need for good  
+governance became especially apparent after the Asian financial  
+crisis.  
+  
+### Inadequate regulatory and supervisory capacity  
+  
+Inadequate supervisory capacity itself contributes to instability.  
+Supervisors must exhibit integrity and competence and be equipped with  
+modern facilities to meet contemporary banking challenges.  
+  
+## Regulatory Authorities' Stabilisation Efforts  
+  
+### Regulation  
+  
+The focus of regulation has been to reduce the risk of bank insolvency  
+and the cost of bank failure to depositors — the hallmark of the 1988  
+Basel capital accord, which explicitly linked capital requirements to  
+a bank's quantum and degree of risk and established internationally  
+comparable minimum capital requirements. The need for greater risk  
+sensitivity and coverage of management, supervision and market  
+discipline produced the new capital accord effective from 2007.  
+  
+### Supervision  
+  
+The CBN undertakes both off-site and on-site supervision. Recurring  
+findings include weak management structures, weak internal controls,  
+under-capitalisation, inadequate collateralisation, and breaches of  
+single-obligor limits. In response the CBN introduced prudential  
+guidelines covering capital adequacy ratios, mandatory uniform  
+accounting standards, and strict licensing limited to those "fit and  
+proper".  
+  
+In July 2002 the CBN and NDIC established a framework on contingency  
+planning for the systemic management of banking crises. The bankers'  
+committee adopted a code of corporate governance for bank directors,  
+and a committee on ethics and professionalism (set up in 2001) issued  
+a code of ethics for all bankers and adjudicates complaints from  
+customers and between banks.  
+  
+### Emphasis on good corporate governance  
+  
+The major causes of the 1990s distress — weak management, poor capital  
+base, inadequate credit policy, fraud and corruption — all reflected  
+unsound corporate governance. The CBN has since placed emphasis on  
+enthroning good governance, including restrictions on multiple  
+directorships (to reduce conflicts of interest and undue influence)  
+and strengthened requirements for board and top-management  
+appointments.  
+  
+## Emerging Issues and Challenges  
+  
+The Nigerian banking system has improved in relative stability, but  
+outstanding problems remain, complicated by globalisation and  
+technological innovation.  
+  
+### Globalisation and financial openness  
+  
+Openness allows beneficial technology transfer but also easy systemic  
+contagion, as in the Asian financial crisis. With growing  
+correspondent-bank transactions, the system is more vulnerable to  
+international systemic risk, and transparency in foreign transactions  
+must be ensured to discourage money laundering. The CBN is  
+strengthening its supervisory framework accordingly.  
+  
+### Transparency and information disclosure  
+  
+Effective monitoring under the New Capital Accord relies on timely,  
+accurate data, but some banks are not transparent in their returns to  
+the CBN. The automated **Bank Analysis System (BAS)** is expected to  
+enhance off-site supervision, and directors and CEOs found guilty of  
+persistent misreporting may be deemed unfit and removed.  
+  
+### Combating money laundering and advance-fee fraud (419)  
+  
+The CBN has investigated cases where banks were used as conduits for  
+money laundering and advance-fee fraud. Measures include enhanced  
+internal structures, tools for identifying and tracking laundering  
+activity, surveillance to ensure compliance with Financial Action Task  
+Force (FATF) rules, mandatory Chief Compliance Officers in bank  
+branches, and collaboration with the police to shut down fraudulent  
+websites. The EFCC and ICPC also track money launderers and fraud.  
+  
+### De-marketing and false rumours of distress  
+  
+Some banks exploit asymmetric information to de-market rivals —  
+a worrisome trend that can erode public confidence and precipitate  
+instability. High ethical standards and professionalism are required.  
+  
+### Competitiveness and related challenges  
+  
+- **Competitiveness**: post-distress consolidation makes sound  
+  competitive strategy essential for survival.  
+- **Superior service quality**: since bank products revolve around  
+  money with little room for differentiation, timeliness, courtesy and  
+  accuracy matter.  
+- **Market orientation**: market forces discipline erring businesses;  
+  managers must stay attuned to customer needs and pricing.  
+- **Product innovation**: institutions must design products matching  
+  new ways of life to ensure customer satisfaction.  
+- **Adequate capitalisation**: adequate capital underpins stability  
+  and competitiveness.  
+- **Investment in technology**: banking depends on processing, storing  
+  and retrieving information; automation and IT advancement are too  
+  potent to ignore.  
+- **Capacity building**: universal banking heightens the need for  
+  personnel development; consolidation should reduce staff poaching  
+  and the use of inexperienced staff in sensitive roles.  
+- **Social demands**: society increasingly expects financial  
+  institutions to assume roles once left to government — funding  
+  university hostels, road construction and rehabilitation, and  
+  supporting security outfits.  
+- **Imposition of sanctions**: the CBN's one-year suspension of 21  
+  banks' dealership licences over forex malpractices showed the need  
+  for greater consultation and confidentiality; sanctions should  
+  reform conduct and restore system integrity.  
+- **Legal tussles**: operators now drag the CBN to court to resist  
+  regulatory action — both sides must be prepared to account for  
+  their actions.  
+  
+## Possible Remedial Actions  
+  
+- Good corporate governance and leadership by good example  
+- Transparent compliance with regulations, guidelines and sector  
+  standards  
+- Corporate contingency plans and risk-management frameworks  
+  (including effective internal controls)  
+- Self-regulation by operators and due customer diligence  
+- Manpower training, development and human capacity building  
+- Co-operation and dialogue with regulatory authorities;  
+  collaborative competition  
+- Policy stability with only needful fine-tuning  
+- Ethics, professionalism, and respect for law and the rights of  
+  others  
+- Consumer care and sensitivity  
+- Proactive supervisory and surveillance activities  
+- Research and development; use of modern technology  
+- Good corporate citizenship, e-banking regulation, and a new  
+  sanction-execution regime

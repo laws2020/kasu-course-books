@@ -1,0 +1,18 @@
+# (APPENDIX) Appendix {-}  
+  
+# Formula Summary {-}  
+  
+- Two-asset portfolio variance: Equation \@ref(eq:twostock)  
+- Security market line (CAPM): Equation \@ref(eq:sml)  
+- Capital market line: Equation \@ref(eq:cml)  
+- Beta from excess returns: Equation \@ref(eq:beta-excess)  
+- Beta via regression: Equation \@ref(eq:beta-reg)  
+- Beta via probability: Equation \@ref(eq:beta-prob)  
+- Beta via covariance: Equation \@ref(eq:beta-cov)  
+- Beta via standard deviations: Equation \@ref(eq:beta-sd)  
+- Portfolio beta: Equation \@ref(eq:beta-port)  
+- Ungearing / gearing betas: Equations \@ref(eq:ungear) and \@ref(eq:gear)  
+- Alpha: Equation \@ref(eq:alpha)  
+- APT factor model: Equations \@ref(eq:apt) and \@ref(eq:apt-premium)  
+  
+# References {-}

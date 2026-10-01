@@ -1,0 +1,486 @@
+# CAPM in Practice {#chap-capm-practice}  
+  
+## Return under CAPM  
+  
+Under CAPM the required rate of return is made up of two parts:  
+  
+1. **The risk-free rate** — the basic rate which all projects must  
+   earn to compensate for the time value of interest on borrowed  
+   funds.  
+2. **The risk premium** — the additional return above the risk-free  
+   rate that compensates investors for systematic risk. It is  
+   estimated by multiplying the security's beta factor by the  
+   difference between the market return and the risk-free rate.  
+  
+Therefore the expected minimum required return is  
+  
+\begin{equation}  
+E(R_i) = R_f + \left(E(R_M) - R_f\right)\beta_i  
+(\#eq:capm2)  
+\end{equation}  
+  
+which is the same security market line as Equation \@ref(eq:sml),  
+where $R_i$ is the expected return on the individual security, $R_f$  
+the risk-free rate, $R_M$ the market portfolio return, and $\beta_i$  
+the beta factor of the security.  
+  
+## The Beta Factor  
+  
+Beta is defined in CIMA's official terminology as "the measure of a  
+share's volatility in terms of market risk". It measures the degree of  
+responsiveness of the returns of an individual security to changes in  
+the returns of the market.  
+  
+::: {.example #ex-beta name="Interpreting beta"}  
+If the average market return rises by 2%, the return on a share with  
+$\beta = 0.8$ should rise by $2\% \times 0.8 = 1.6\%$ in response to  
+the same conditions that caused the market return to change.  
+:::  
+  
+The beta coefficient represents the **systematic risk** of the  
+security — the part of total risk that cannot be eliminated through  
+diversification (Chapter \@ref(chap-risk)). CAPM states that only  
+systematic risk attracts a risk premium under equilibrium, because  
+every investor is assumed to hold an efficiently diversified  
+portfolio.  
+  
+### Measuring beta  
+  
+Given a security $i$ in market portfolio $M$, beta is the covariance  
+between the security's return and the market return divided by the  
+variance of the market return:  
+  
+\begin{equation}  
+\beta_i = \frac{\mathrm{Cov}(R_i, R_M)}{\sigma_M^2}  
+(\#eq:beta)  
+\end{equation}  
+  
+- All gilt-edged (government) securities have $\beta = 0$, because the  
+  sensitivity of their returns to market movements is zero.  
+- The market portfolio has $\beta_M = 1$, since its covariance with  
+  itself equals its own variance.  
+- The higher the beta, the higher the risk premium.  
+  
+| Beta value | Interpretation |  
+|:-----------|:---------------|  
+| $\beta = 1$ | Security moves in line with the market |  
+| $\beta > 1$ | High systematic risk; returns fluctuate more than the market |  
+| $\beta < 1$ | Low systematic risk; smaller fluctuations than the market |  
+| $\beta = 0$ | No relationship with the market (e.g., risk-free government securities) |  
+  
+## Calculating Beta  
+  
+Beta can be calculated using five approaches:  
+  
+1. Excess return approach  
+2. Linear regression approach  
+3. Probability approach  
+4. Covariance approach  
+5. Standard deviation approach  
+  
+### Excess return approach  
+  
+\begin{equation}  
+\beta_i = \frac{R_i - R_f}{R_M - R_f}  
+(\#eq:beta-excess)  
+\end{equation}  
+  
+::: {.example #ex-ill1 name="Illustration 1"}  
+A security has an expected return of 9%, the market return is 12%, and  
+the government security rate is 7%. Find beta.  
+  
+**Solution.** Using Equation \@ref(eq:beta-excess):  
+  
+$$\beta = \frac{9 - 7}{12 - 7} = \frac{2}{5} = 0.40$$  
+:::  
+  
+### Linear regression approach  
+  
+Beta is the gradient of the line of best fit when security returns are  
+plotted against market returns:  
+  
+\begin{equation}  
+\beta = \frac{n\sum xy - \sum x \sum y}{n\sum x^2 - (\sum x)^2}  
+(\#eq:beta-reg)  
+\end{equation}  
+  
+where $x$ = market return, $y$ = security return, and $n$ = number of  
+paired observations.  
+  
+::: {.example #ex-ill2 name="Illustration 2 (Wisdom Plc)"}  
+Wisdom Plc wishes to determine its historic beta to decide its cost of  
+capital, using six months of returns:  
+  
+| Month | Market index x (%) | Wisdom shares y (%) |  
+|------:|-------------------:|--------------------:|  
+| 1 | +7 | +4 |  
+| 2 | +5 | +3 |  
+| 3 | −2 | −5 |  
+| 4 |  0 | −3 |  
+| 5 | +1 | +2 |  
+| 6 | +2 | +4 |  
+  
+(a) Calculate beta. (b) If the risk-free rate is 8% per annum,  
+calculate the required return on Wisdom's shares.  
+  
+**Solution.** Compute the sums:  
+  
+```{r wisdom, echo=FALSE}  
+d <- data.frame(x = c(7,5,-2,0,1,2), y = c(4,3,-5,-3,2,4))  
+d$x2 <- d$x^2; d$xy <- d$x * d$y  
+knitr::kable(rbind(d, colSums(d)),  
+  col.names = c("x","y","x²","xy"),  
+  caption = "Regression sums for Wisdom Plc", booktabs = TRUE)  
+```  
+  
+From Table \@ref(tab:wisdom): $\sum x = 13$, $\sum y = 5$,  
+$\sum x^2 = 83$, $\sum xy = 63$, $n = 6$.  
+  
+$$\beta = \frac{6(63) - (13)(5)}{6(83) - 13^2}  
+        = \frac{378 - 65}{498 - 169}  
+        = \frac{313}{329} = 0.951$$  
+  
+For (b), convert rates to the six-month horizon: $R_f = 4\%$,  
+$R_M = 7\%$. Then  
+  
+$$R_i = 4 + (7 - 4)(0.951) = 4 + 2.853 = 6.853\%$$  
+:::  
+  
+### Probability approach  
+  
+An extension of the covariance approach, weighting deviations by the  
+probability $p$ attached to each state:  
+  
+\begin{equation}  
+\beta_i =  
+\frac{\sum p\,(R_i - \bar{R}_i)(R_M - \bar{R}_M)}  
+     {\sum p\,(R_M - \bar{R}_M)^2}  
+(\#eq:beta-prob)  
+\end{equation}  
+  
+### Covariance approach  
+  
+\begin{equation}  
+\beta_i = \frac{\mathrm{Cov}_{iM}}{\mathrm{Var}_M}  
+(\#eq:beta-cov)  
+\end{equation}  
+  
+::: {.example #ex-ill3 name="Illustration 3 (Endurance Ltd)"}  
+Given: risk-free rate = 6%, market return = 11%, standard deviation of  
+market returns = 40%, and covariance of Endurance Ltd returns with the  
+market = 19.2%. Calculate (i) beta and (ii) the expected return.  
+  
+**Solution.** (i) Since variance is the square of standard deviation,  
+$\mathrm{Var}_M = 0.40^2 = 0.16$:  
+  
+$$\beta = \frac{0.192}{0.16} = 1.20$$  
+  
+(ii) $R_i = 6\% + (11 - 6)\% \times 1.20 = 6\% + 6\% = 12\%$  
+:::  
+  
+### Standard deviation approach  
+  
+\begin{equation}  
+\beta_i = \frac{\sigma_i}{\sigma_M} \times r_{iM}  
+(\#eq:beta-sd)  
+\end{equation}  
+  
+where $r_{iM}$ is the correlation coefficient between the security and  
+the market.  
+  
+::: {.example #ex-ill4 name="Illustration 4 (Company X)"}  
+Given: average market return on equity = 15%, risk-free rate = 8%,  
+Company X dividend yield = 4%, share price rise = 12%, market standard  
+deviation = 12%, Company X standard deviation = 9%, and correlation  
+coefficient = 0.75.  
+  
+(i) **Beta:**  
+  
+$$\beta = \frac{0.09}{0.12} \times 0.75 \approx 0.9$$  
+  
+(ii) **Required return (cost of equity):**  
+  
+$$R_i = 8\% + (15 - 8)\% \times 0.9 = 14.3\%$$  
+  
+**Implication.** Actual returns are $4\% + 12\% = 16\%$, above the  
+required 14.3%. This implies either extra return due to unsystematic  
+factors, or that the shares are undervalued (priced lower than they  
+should be).  
+:::  
+  
+## Beta of a Portfolio  
+  
+The beta of a portfolio is the weighted average of the betas of the  
+securities in it:  
+  
+\begin{equation}  
+\beta_p = \sum_{i=1}^{n} w_i \beta_i  
+(\#eq:beta-port)  
+\end{equation}  
+  
+::: {.example #ex-ill5 name="Illustration 5 (portfolio beta)"}  
+An investor is allocating funds as follows:  
+  
+```{r portbeta, echo=FALSE}  
+pf <- data.frame(  
+  Security = LETTERS[1:5],  
+  Weight   = c(0.15, 0.10, 0.20, 0.25, 0.30),  
+  Beta     = c(0.85, 1.30, 1.181, 1.25, 0.70)  
+)  
+knitr::kable(pf, caption = "Portfolio weights and betas",  
+             booktabs = TRUE)  
+```  
+  
+With $R_f = 12\%$ and $R_M = 18\%$, find (i) portfolio beta and  
+(ii) expected return.  
+  
+**Solution.** (i) From Equation \@ref(eq:beta-port):  
+  
+$$\beta_p = 0.15(0.85) + 0.10(1.30) + 0.20(1.181) +  
+           0.25(1.25) + 0.30(0.70) = 1.016$$  
+  
+(ii) $R_p = 0.12 + 1.016 \times (0.18 - 0.12) = 0.18096 \approx 18.1\%$  
+:::  
+  
+## Mean-Variance Analysis of Returns  
+  
+Risk-averse investors are assumed to evaluate risky assets by the mean  
+return and the variance of returns — implicitly assuming asset returns  
+follow a normal distribution, which is symmetric and fully described  
+by its mean and variance.  
+  
+::: {.rmdwarning}  
+In reality the normality assumption is violated. For US monthly stock  
+returns (1871–2002), skewness < 0 and kurtosis > 3, indicating fat  
+tails. Non-normality is common in high-frequency data (monthly, daily,  
+tick), creating problems for hypothesis testing; one remedy is  
+simulated critical values [@arghyrougregoriou2006].  
+:::  
+  
+### Individual securities  
+  
+Consider two securities with returns under five equally likely states  
+($p = 0.2$):  
+  
+| Probability | Security X | Security Y |  
+|------------:|-----------:|-----------:|  
+| 0.2 | 0.11 | −0.03 |  
+| 0.2 | 0.09 | 0.15  |  
+| 0.2 | 0.25 | 0.02  |  
+| 0.2 | 0.07 | 0.20  |  
+| 0.2 | −0.02| 0.06  |  
+  
+Security X has mean return 10% with variance 0.76%; security Y has  
+mean return 8% with variance 0.708%. Asset X offers greater return but  
+with higher risk — consistent with the principle that risk exposure  
+determines expected returns. Over 1926–1997, large US stocks returned  
+a mean of 13% (sd 20.3%) while Treasury bills returned 3.8% (sd 3.2%).  
+As @malkiel2003 puts it: "Risk and risk alone, decides the valuation  
+of any stock relative to the market."  
+  
+### Portfolio mean and variance  
+  
+Investing half of wealth in X and half in Y ($w_X = w_Y = 0.5$), with  
+$\mathrm{Cov}(R_X, R_Y) = 0.0024$:  
+  
+$$E(R_p) = 0.5(0.10) + 0.5(0.08) = 0.09 = 9\%$$  
+  
+$$\sigma_p^2 = (0.5)^2(0.0076) + (0.5)^2(0.00708) +  
+              2(0.5)(0.5)(0.0024) = 0.0025 = 0.25\%$$  
+  
+::: {.rmdnote}  
+The benefits of diversification are now apparent: portfolio variance  
+(0.25%) is far below the variance of either X (0.76%) or Y (0.708%),  
+as predicted by Equation \@ref(eq:twostock).  
+:::  
+  
+## Beta of a Geared Company  
+  
+Gearing affects the risk of a company's equity: a geared company has  
+higher financial risk than an all-equity company, so the beta of  
+geared equity exceeds that of a similar ungeared company.  
+  
+This connects directly to Modigliani and Miller's view that as gearing  
+rises, the cost of equity rises to compensate shareholders for extra  
+financial risk — an aspect of systematic risk that belongs in beta.  
+The relationship between ungeared and geared betas is:  
+  
+\begin{equation}  
+\beta_u = \frac{\beta_g}{1 + \dfrac{D(1-t)}{V_{eg}}}  
+(\#eq:ungear)  
+\end{equation}  
+  
+\begin{equation}  
+\beta_g = \beta_u\left(1 + \frac{D(1-t)}{V_{eg}}\right)  
+        = \beta_u + \beta_u\frac{D(1-t)}{V_{eg}}  
+(\#eq:gear)  
+\end{equation}  
+  
+where $\beta_u$ = ungeared (asset) beta, $\beta_g$ = geared (equity)  
+beta, $D$ = market value of debt, $V_{eg}$ = market value of equity,  
+and $t$ = corporate tax rate. Note in Equation \@ref(eq:gear) that the  
+geared beta equals the ungeared beta plus a premium for financial  
+risk: the ungeared beta times the tax-adjusted gearing ratio.  
+  
+::: {.example #ex-ill6 name="Illustration 6 (Geared vs Ungeared Ltd)"}  
+Two companies are identical except for capital structure (₦'000):  
+  
+| Item | Geared Ltd | Ungeared Ltd |  
+|:-----|-----------:|-------------:|  
+| Annual profit before interest & tax | 1,000 | 1,000 |  
+| Interest (₦4,000 × 8%) | 320 | — |  
+| Profit before tax | 680 | 1,000 |  
+| Tax at 35% | 238 | 350 |  
+| Profit after tax (= dividends) | 442 | 650 |  
+| Market value of equity | 3,900 | 6,500 |  
+| Market value of debt | 4,000 | — |  
+  
+The total value of Geared Ltd exceeds that of Ungeared Ltd, consistent  
+with MM's proposition $V_g = V_u + Dt$. Ungeared Ltd's beta is 1.0 and  
+Geared Ltd's debt can be regarded as risk-free.  
+  
+Find: (a) cost of equity in Geared Ltd, (b) the market return $R_M$,  
+(c) the beta of Geared Ltd.  
+  
+**Solution.**  
+  
+(a) Cost of equity $= 442/3{,}900 = 11.33\%$. Check with the MM  
+formula, where $k_u = 650/6{,}500 = 10\%$ and $k_d = 8\%$:  
+  
+$$k_g = k_u + (1-t)(k_u - k_d)\frac{D}{V_{eg}}  
+      = 10\% + (1-0.35)(10-8)\%\times\frac{4000}{3900}  
+      = 11.33\%$$  
+  
+(b) Since $\beta_u = 1.0$, ungeared Ltd's expected return equals the  
+market return, so $R_M = 10\%$. Verify via CAPM:  
+  
+$$k_g = R_f + \beta_u(R_M - R_f)\left(1 + (1-t)\frac{D}{V_{eg}}\right)  
+      = 8\% + 1.0(10-8)\%\left(1 + 0.65\times\frac{4000}{3900}\right)  
+      = 11.33\%$$  
+  
+(c) From Equation \@ref(eq:gear):  
+  
+$$\beta_g = 1.0\left(1 + 0.65 \times \frac{4000}{3900}\right) = 1.67$$  
+:::  
+  
+::: {.example #ex-ill7 name="Illustration 7 (Musagift vs Sure Success)"}  
+Two companies can invest in one-year projects (₦'000):  
+  
+| Company | Cash flow | Beta |  
+|:--------|----------:|-----:|  
+| Musagift Ltd | 500 | 1.20 |  
+| Sure Success Ltd (i) | 200 | 1.25 |  
+| Sure Success Ltd (ii) | 100 | 0.80 |  
+| Sure Success Ltd (iii) | 200 | 1.35 |  
+  
+Market return = 12%, risk-free rate = 7%.  
+  
+(a) **Project discount rates** (from Equation \@ref(eq:capm2)):  
+Musagift: $7\% + 1.2(12-7)\% = 13\%$.  
+Sure Success: (i) 13.25%, (ii) 11%, (iii) 13.75%.  
+  
+**NPVs** (cash flows at end of year 1):  
+Musagift: $500/1.13 = 442.48$.  
+Sure Success: $200/1.1325 = 176.60$; $100/1.11 = 90.09$;  
+$200/1.1375 = 175.82$. Total ≈ 442.51 — equal to Musagift's PV  
+(allowing for rounding).  
+  
+(b) **Overall beta** of Sure Success (value-weighted):  
+  
+$$\beta = \frac{200(1.25) + 100(0.80) + 200(1.35)}{500}  
+        = \frac{600}{500} = 1.2$$  
+  
+—the same as Musagift's project beta.  
+  
+(c) **Discussion.** Both companies have the same PV and the same  
+systematic risk, so investors should value them equally. It is  
+tempting to prefer Sure Success for being "diversified" across three  
+projects, but CAPM assumes investors can eliminate unsystematic risk  
+themselves and do not need companies to diversify for them. Company  
+diversification still reduces the firm's own bankruptcy risk; provided  
+bankruptcy imposes no added costs on investors, corporate  
+diversification has no effect on the risk of a well-diversified  
+investor.  
+:::  
+  
+## The Alpha Factor  
+  
+The **alpha factor** is the abnormal return attributable to the  
+specific (unsystematic) risk of an individual security — the return on  
+a share not due to general market movements. It is the recorded  
+difference between actual return and the CAPM-required return:  
+  
+\begin{equation}  
+\alpha_i = R_i - \left[R_f + \beta_i(R_M - R_f)\right]  
+(\#eq:alpha)  
+\end{equation}  
+  
+## Limitations of CAPM  
+  
+1. The risk-free rate may be difficult to determine.  
+2. Beta is difficult to measure accurately for an individual company's  
+   future events.  
+3. Perfect markets do not exist in the real world.  
+4. The model only considers systematic risk and assumes investors  
+   always hold balanced portfolios that eliminate unsystematic risk.  
+5. Beta values may be unstable over time.  
+6. Betas estimated from historical data may be inappropriate for  
+   future events.  
+7. CAPM is a one-period model — use with caution for multi-period  
+   projects.  
+8. The model examines investments only from the shareholders' point of  
+   view.  
+9. CAPM assumes insolvency costs are zero: all assets can be sold at  
+   going-concern prices with no selling, legal, or other costs.  
+10. Results from CAPM may conflict with results using WACC.  
+  
+## Arbitrage Pricing Theory {#sec-apt}  
+  
+APT was proposed by @ross1976 out of dissatisfaction with the CAPM.  
+Unlike the CAPM — a single-factor (single-beta) model — APT is a  
+**multi-factor (multi-beta) model** that uses the factor structure  
+affecting security returns.  
+  
+### Assumptions of APT  
+  
+1. Competitive capital markets.  
+2. Investors prefer more wealth to less wealth with certainty.  
+3. The stochastic process generating asset returns can be represented  
+   as a factor model.  
+  
+### The model  
+  
+\begin{equation}  
+R_i = E(R_i) + b_{i1}f_1 + b_{i2}f_2 + \dots + b_{in}f_n + e_i  
+     = E(R_i) + \sum_{j=1}^{n} b_{ij}f_j + e_i  
+(\#eq:apt)  
+\end{equation}  
+  
+where $R_i$ = return on asset $i$, $E(R_i)$ = expected return,  
+$b_{ij}$ = sensitivity of asset $i$'s returns to common factor $j$,  
+$f_j$ = common factors with zero mean, and $e_i$ = an error term  
+unique to asset $i$, assumed uncorrelated with the factors and  
+completely diversifiable in large portfolios (mean zero).  
+  
+Common factors include inflation, interest rates, money supply,  
+political disturbance, and growth in GNP.  
+  
+APT implies a linear relationship between expected return and the  
+factor risk premiums:  
+  
+\begin{equation}  
+E(R_i) = R_f + \lambda_1 b_{i1} + \lambda_2 b_{i2} + \dots +  
+         \lambda_n b_{in}  
+(\#eq:apt-premium)  
+\end{equation}  
+  
+where $R_f$ is the risk-free rate and $\lambda_j$ is the risk premium  
+associated with common factor $j$.  
+  
+## Conclusion  
+  
+CAPM was developed to simplify portfolio theory as it relates to  
+investment in securities. The model brings together aspects of  
+portfolio theory, share valuation, the cost of capital, and gearing,  
+and can help establish the "correct" equilibrium market value of a  
+company's shares.

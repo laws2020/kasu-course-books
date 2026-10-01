@@ -1,0 +1,618 @@
+% Options for packages loaded elsewhere
+\PassOptionsToPackage{unicode}{hyperref}
+\PassOptionsToPackage{hyphens}{url}
+\documentclass[
+]{book}
+\usepackage{xcolor}
+\usepackage{amsmath,amssymb}
+\setcounter{secnumdepth}{5}
+\usepackage{iftex}
+\ifPDFTeX
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+  \usepackage{textcomp} % provide euro and other symbols
+\else % if luatex or xetex
+  \usepackage{unicode-math} % this also loads fontspec
+  \defaultfontfeatures{Scale=MatchLowercase}
+  \defaultfontfeatures[\rmfamily]{Ligatures=TeX,Scale=1}
+\fi
+\usepackage{lmodern}
+\ifPDFTeX\else
+  % xetex/luatex font selection
+\fi
+% Use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+\IfFileExists{microtype.sty}{% use microtype if available
+  \usepackage[]{microtype}
+  \UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\makeatletter
+\@ifundefined{KOMAClassName}{% if non-KOMA class
+  \IfFileExists{parskip.sty}{%
+    \usepackage{parskip}
+  }{% else
+    \setlength{\parindent}{0pt}
+    \setlength{\parskip}{6pt plus 2pt minus 1pt}}
+}{% if KOMA class
+  \KOMAoptions{parskip=half}}
+\makeatother
+\usepackage{longtable,booktabs,array}
+\newcounter{none} % for unnumbered tables
+\usepackage{calc} % for calculating minipage widths
+% Correct order of tables after \paragraph or \subparagraph
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd\longtable{\par}{\if@noskipsec\mbox{}\fi\par}{}{}
+\makeatother
+% Allow footnotes in longtable head/foot
+\IfFileExists{footnotehyper.sty}{\usepackage{footnotehyper}}{\usepackage{footnote}}
+\makesavenoteenv{longtable}
+\usepackage{graphicx}
+\makeatletter
+\newsavebox\pandoc@box
+\newcommand*\pandocbounded[1]{% scales image to fit in text height/width
+  \sbox\pandoc@box{#1}%
+  \Gscale@div\@tempa{\textheight}{\dimexpr\ht\pandoc@box+\dp\pandoc@box\relax}%
+  \Gscale@div\@tempb{\linewidth}{\wd\pandoc@box}%
+  \ifdim\@tempb\p@<\@tempa\p@\let\@tempa\@tempb\fi% select the smaller of both
+  \ifdim\@tempa\p@<\p@\scalebox{\@tempa}{\usebox\pandoc@box}%
+  \else\usebox{\pandoc@box}%
+  \fi%
+}
+% Set default figure placement to htbp
+\def\fps@figure{htbp}
+\makeatother
+\setlength{\emergencystretch}{3em} % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\usepackage{bookmark}
+\IfFileExists{xurl.sty}{\usepackage{xurl}}{} % add URL line breaks if available
+\urlstyle{same}
+\hypersetup{
+  pdftitle={Introduction to Risk Management},
+  pdfauthor={Dr.~Peter Adamu},
+  hidelinks,
+  pdfcreator={LaTeX via pandoc}}
+
+\title{Introduction to Risk Management}
+\usepackage{etoolbox}
+\makeatletter
+\providecommand{\subtitle}[1]{% add subtitle to \maketitle
+  \apptocmd{\@title}{\par {\large #1 \par}}{}{}
+}
+\makeatother
+\subtitle{Concepts, Processes, Approaches and Reporting}
+\author{Dr.~Peter Adamu}
+\date{2026-09-20}
+
+\begin{document}
+\maketitle
+
+{
+\setcounter{tocdepth}{1}
+\tableofcontents
+}
+\chapter*{Preface}\label{preface}
+\addcontentsline{toc}{chapter}{Preface}
+
+This digital edition presents the course material \textbf{Introduction to Risk Management} by \textbf{Dr.~Peter Adamu} in a structured book format.
+
+The material has been organized into chapters and sections to improve navigation and readability while retaining the substance and terminology of the supplied lecture material.
+
+\chapter*{How to Use This Book}\label{how-to-use-this-book}
+\addcontentsline{toc}{chapter}{How to Use This Book}
+
+The book introduces the meaning and definitions of risk management, the risk management process, approaches and methods, risk reporting, and risk management organization structures.
+
+\chapter{Introduction to Risk Management}\label{introduction-to-risk-management}
+
+\section{Introduction}\label{introduction}
+
+Risk can be defined as the chance of loss or an unfavorable outcome associated with an action. Uncertainty concerns not knowing what will happen in the future; the greater the uncertainty, the greater the risk.
+
+For an individual, risk management involves optimizing expected returns subject to the risks involved and risk tolerance. Risk is what makes it possible to make a profit. If there was no risk, there would be no return to the ability to successfully manage it. For each decision there is a risk-return trade-off. Anytime there is a possibility of loss (risk), there should be an opportunity for profit.
+
+\section{Meaning of Risk Management}\label{meaning-of-risk-management}
+
+Risk management is the process of identifying, assessing and controlling threats to an organization's capital and earnings. These threats, or risks, can stem from a wide variety of sources, including financial uncertainty, legal liabilities, strategic management errors, accidents and natural disasters.
+
+IT security threats and data-related risks, and the risk management strategies to alleviate them, have become a priority for digitized companies. As a result, a risk management plan increasingly includes processes for identifying and controlling threats to digital assets, including proprietary corporate data, customers' personally identifiable information and intellectual property.
+
+\section{Definitions of Risk Management}\label{definitions-of-risk-management}
+
+The supplied material presents the following definitions:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  \textbf{Dr.~P.K. Gupta:} Risk management is an integrated process of delineating specific areas of risk, developing a comprehensive plan, integrating the plan, and conducting ongoing evaluation.
+\item
+  \textbf{Wikipedia:} Risk management is the process of measuring or assessing risk and then developing strategies to manage the risk.
+\item
+  \textbf{Oxford Business Dictionary:} Managing risk can involve taking out insurance against a loss, hedging a loan against interest-rate rises, and protecting an investment against a fall in interest rates.
+\end{enumerate}
+
+\section{Risk in Investment Decisions}\label{risk-in-investment-decisions}
+
+When an entity makes an investment decision, it is exposed to a number of financial risks. The quantum of such risks depends on the type of financial instrument.
+
+Financial risks may take the form of high inflation, volatility in capital markets, recession, bankruptcy, and other conditions. To minimize and control exposure to such risks, fund managers and investors practice risk management.
+
+Different levels of risk are attached to different categories of asset classes. For example, a fixed deposit is considered a less risky investment, while investment in equity is considered a risky venture. Equity investors and fund managers may diversify their portfolios to minimize exposure to risk.
+
+\section{Traditional and New Approaches to Risk Management}\label{traditional-and-new-approaches-to-risk-management}
+
+The traditional view of risk management has been one of protecting the organization from loss through conformance procedures and hedging techniques. This focuses on avoiding the downside.
+
+The new approach to risk management is described in the material as \textbf{seeking the upside while managing the downside}.
+
+\chapter{Risk Management Process}\label{risk-management-process}
+
+The risk management process in the supplied material consists of five stages:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Establish the context
+\item
+  Identification
+\item
+  Assessment
+\item
+  Potential risk treatment
+\item
+  Review and evaluation of the plan
+\end{enumerate}
+
+\section{Establish the Context}\label{establish-the-context}
+
+The purpose of this stage is to understand the environment in which the organization operates, including the external environment and the internal culture of the organization.
+
+You cannot resolve a risk if you do not know what it is. At the initial stage, it is necessary to establish the context of risk. Relevant data should be collected, the scope of risks should be mapped, and the objectives of the organization should be identified.
+
+\section{Risk Identification}\label{risk-identification}
+
+After establishing the context, the next step is to identify potential risks. Risks are about events that, when triggered, will cause problems. Risk identification can therefore begin with the source of problems or with the problem itself.
+
+Risk identification requires knowledge of the organization, the market in which it operates, and the legal, social, economic, political and climatic environment in which it does business. It also requires knowledge of financial strengths and weaknesses, exposure to unplanned losses, manufacturing processes, management systems and business mechanisms.
+
+Failure at this stage to identify risk may cause a major loss for the organization. Risk identification provides the foundation of risk management.
+
+\subsection{Risk Identification Methods}\label{risk-identification-methods}
+
+The material identifies the following methods:
+
+\begin{itemize}
+\tightlist
+\item
+  Brainstorming
+\item
+  Interviews
+\item
+  Checklists
+\item
+  Structured What-If Technique (SWIFT)
+\item
+  Scenario analysis
+\item
+  Fault Tree Analysis (FTA)
+\item
+  Bow Tie Analysis
+\item
+  Direct observation
+\item
+  Incident analysis
+\item
+  Surveys
+\end{itemize}
+
+\section{Risk Assessment}\label{risk-assessment}
+
+Once risks have been identified, they must be assessed according to their potential severity of loss and probability of occurrence.
+
+Some quantities may be simple to measure, such as the value of a lost building, while other probabilities may be difficult to determine, particularly for unlikely events. The material therefore emphasizes making the best educated guesses possible in order to prioritize implementation of the risk management plan.
+
+A fundamental difficulty in risk assessment is determining the rate of occurrence when statistical information is not available for all types of past incidents.
+
+\subsection{Risk Quantification}\label{risk-quantification}
+
+Risk assessment should produce information that makes primary risks easy to understand and enables management decisions to be prioritized.
+
+The material gives the following risk-quantification formula:
+
+\[
+Risk = Rate\ of\ occurrence \times Impact\ of\ the\ event
+\]
+
+\section{Potential Risk Treatments}\label{potential-risk-treatments}
+
+Once risks have been identified and assessed, the material groups risk treatment into four major categories:
+
+\begin{itemize}
+\tightlist
+\item
+  Risk transfer
+\item
+  Risk avoidance
+\item
+  Risk retention
+\item
+  Risk control
+\end{itemize}
+
+\subsection{Risk Transfer}\label{risk-transfer}
+
+Risk transfer means that the expected party transfers all or part of the losses consequential to risk exposure to another party for a cost. Insurance contracts fundamentally involve risk transfer.
+
+\subsection{Risk Avoidance}\label{risk-avoidance}
+
+Risk avoidance means avoiding the risk or circumstances that may lead to losses, including not performing an activity that could carry risk.
+
+Avoidance may appear to be the answer to all risks, but avoiding risks can also mean losing potential gains that accepting the risk may have allowed.
+
+\subsection{Risk Retention}\label{risk-retention}
+
+Risk retention implies that losses arising from a risk exposure are retained or assumed by the party or organization.
+
+The material identifies self-insurance and captive insurance as methods of retention. A captive insurer is generally defined as an insurance company wholly owned and controlled by its insureds, primarily to insure the risks of its owners.
+
+\subsection{Risk Control}\label{risk-control}
+
+Risk control involves controlling risk or controlling losses. The risk management decision should be recorded and approved by the appropriate level of management.
+
+A risk management plan should propose applicable and effective security controls, include a schedule for control implementation, and identify responsible persons for those actions.
+
+After control measures are implemented, they should be documented. Documentation helps an organization understand what was done, demonstrate that sufficient measures were taken, and support the handling of similar risks.
+
+\section{Review and Evaluation of the Plan}\label{review-and-evaluation-of-the-plan}
+
+Initial risk management plans will never be perfect. Practice, experience and actual loss results may necessitate changes to the plan.
+
+Risk analysis results and management plans should be updated periodically for two primary reasons:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  To evaluate whether previously selected security controls are still applicable and effective.
+\item
+  To evaluate possible changes in risk levels as the business moves.
+\end{enumerate}
+
+Some risks are static, while dynamic risks require continual monitoring and review because their financial, legal and ethical impacts may grow.
+
+\chapter{An Integrated Approach to Corporate Risk Management}\label{an-integrated-approach-to-corporate-risk-management}
+
+\section{Corporate Risk Management}\label{corporate-risk-management}
+
+Corporate risk management refers to the methods a company uses to minimize financial losses.
+
+Risk managers, executives, line managers, middle managers and other employees perform practices to prevent loss exposure through internal controls involving people and technologies.
+
+Risk management also relates to external threats to a corporation, such as fluctuations in financial markets that affect its financial assets.
+
+\section{Protecting Shareholders}\label{protecting-shareholders}
+
+A corporation has at least one shareholder. Large corporations, such as publicly traded or employee-owned firms, may have thousands or millions of shareholders.
+
+Corporate risk management protects shareholders' investments through measures designed to control risk. For example, a company needs to ensure that funds for capital projects, such as construction or technology development, are protected until they are ready to use.
+
+\section{Types of Risk}\label{types-of-risk}
+
+A corporation may become insolvent if it has not bought insurance, implemented loss-control measures and used other practices to prevent financial loss.
+
+Insurance is not a substitute for successfully identifying measures to prevent losses, such as safety training to prevent worker injuries and deaths.
+
+The material identifies risks including:
+
+\begin{itemize}
+\tightlist
+\item
+  Hazard risks
+\item
+  Financial risks
+\item
+  Personal injury and death
+\item
+  Business interruption or loss of services
+\item
+  Damage to corporate reputation
+\item
+  Errors and omissions
+\item
+  Lawsuits
+\end{itemize}
+
+\section{Probability and Consequences}\label{probability-and-consequences}
+
+To prevent financial losses, a corporation engages in a certain amount of speculation.
+
+A risk manager calculates the probability of events that could damage the firm's financial position and considers their consequences. Calculating likelihood and associated costs enables the risk manager to recommend ways to address risks to senior management, the board of directors and owners.
+
+\section{Risk Management Solutions}\label{risk-management-solutions}
+
+A corporate risk manager is described as a multidisciplinary professional with an understanding of internal business processes and financial instruments.
+
+Such a professional may have a background in business management, finance, insurance or actuarial science and may suggest solutions to protect corporate assets.
+
+For example, a risk manager may recommend commercial liability insurance coverage. Other insurance, such as fire or fraud coverage, may also be considered after weighing costs against benefits.
+
+\chapter{Risk Management Approaches and Methods}\label{risk-management-approaches-and-methods}
+
+The material identifies six techniques associated with risk management:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Avoidance
+\item
+  Loss prevention
+\item
+  Loss reduction
+\item
+  Separation
+\item
+  Duplication
+\item
+  Diversification
+\end{enumerate}
+
+\section{Avoidance}\label{avoidance}
+
+Avoidance is presented as a means of loss control because it involves avoiding the risk completely. If efforts at avoiding the loss are successful, the probability of suffering the loss is eliminated.
+
+\section{Loss Prevention}\label{loss-prevention}
+
+Loss prevention limits rather than eliminates loss. Instead of avoiding a risk completely, the technique accepts the risk but attempts to minimize the resulting loss.
+
+For example, inventory stored in a warehouse is susceptible to theft. A loss-prevention program may include security guards, video cameras and secured storage facilities.
+
+\section{Loss Reduction}\label{loss-reduction}
+
+Loss reduction accepts that a risk exists and that loss might occur, then seeks to minimize the loss if a threat occurs.
+
+For example, a company may need to store flammable material in a warehouse. Management may install water sprinklers so that, if a fire occurs, the amount of loss is minimized.
+
+\section{Separation}\label{separation}
+
+Separation involves dispersing key assets. If a catastrophic event occurs at one location, the impact is limited to the assets at that location.
+
+An example given in the material is a geographically diversified workforce.
+
+\section{Duplication}\label{duplication}
+
+Duplication involves creating a backup plan. It is often necessary with technology.
+
+A failure of an information-systems server should not bring the entire business to a halt. A backup or failover server can be available if the primary server fails.
+
+The material also gives disaster-recovery services as an example of duplication.
+
+\section{Diversification}\label{diversification}
+
+Diversification allocates business resources to create multiple lines of business offering different products or services in different industries.
+
+With diversification, a significant revenue loss from one line of business does not necessarily cause irreparable harm to the company's bottom line.
+
+\section{Risk Management and Organizational Sustainability}\label{risk-management-and-organizational-sustainability}
+
+The material concludes that risk management is a key component of sound company strategy and is necessary for long-term organizational sustainability and profitability.
+
+\chapter{Risk Reporting Process}\label{risk-reporting-process}
+
+\section{Meaning of Risk Reporting}\label{meaning-of-risk-reporting}
+
+Risk reporting is the communication of risk and risk management outcomes for the purpose of comparing results with policy.
+
+An organization should ensure that information about risks derived from the risk management process is adequately reported and used as a basis for decision making at relevant levels.
+
+Clear reporting-line mechanisms and strong interdepartmental knowledge sharing should be established to encourage accountability and ensure that reports are delivered accurately, consistently and in a timely manner.
+
+The risk management policy should clearly state how risk management performance will be reported.
+
+\section{Importance of Risk Reporting}\label{importance-of-risk-reporting}
+
+Inadequate risk reporting can lead to a failure to integrate identified risks fully into strategic and operational decisions.
+
+An organization should report progress against the risk management plan by showing how well the risk management policy is being followed, ensuring that risk management remains effective and supports organizational performance.
+
+\section{Key Requirements}\label{key-requirements}
+
+The material identifies three specific requirements:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Results from risk monitoring and review should be recorded and reported internally and externally, where appropriate.
+\item
+  Developments in implementing risk treatment plans should be incorporated into overall performance management.
+\item
+  Enhanced risk management includes continual communication with external and internal stakeholders.
+\end{enumerate}
+
+\section{Factors Affecting Risk Reporting}\label{factors-affecting-risk-reporting}
+
+The quality and success of risk reporting depends on:
+
+\begin{itemize}
+\tightlist
+\item
+  Target audience
+\item
+  Inputs and processes
+\item
+  Frequency
+\item
+  Content
+\item
+  Format
+\item
+  Dissemination channels
+\end{itemize}
+
+\section{Internal and External Risk Reporting}\label{internal-and-external-risk-reporting}
+
+There are two areas of risk reporting:
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\tightlist
+\item
+  Reporting to internal audiences
+\item
+  Reporting to external audiences
+\end{enumerate}
+
+Risk reporting is essential for internal decision makers to integrate risk evaluation into operational and investment strategy, review performance and consider compensation or reward decisions.
+
+External risk reporting has developed with increasing attention to corporate governance and internal control. A review of risks is generally included in annual reports.
+
+\section{Internal Reporting}\label{internal-reporting}
+
+Organizations should establish internal reporting mechanisms to support accountability and ownership of risk.
+
+These mechanisms should ensure that key components of the risk management framework, its effectiveness, outcomes and subsequent modifications are properly disseminated.
+
+Relevant risk information should be available at appropriate levels and times, with processes for consultation with internal stakeholders.
+
+Internal risk reports can be real-time or periodic.
+
+\subsection{Periodic Internal Risk Reports}\label{periodic-internal-risk-reports}
+
+Periodic reports provide aggregate information about relevant organizational risks, with trend indicators and comparisons highlighting changes in risks.
+
+Periodic internal risk reporting contributes to strategic oversight and decision making as well as improved operational decisions.
+
+Risk information may be organized around specific key risk categories rather than around phases of the risk management process.
+
+\subsection{Residual Risk Reporting}\label{residual-risk-reporting}
+
+Residual risk reporting compares gross risk, meaning the assessment before controls or responses are applied, with net risk, meaning the assessment after controls or responses are taken into account.
+
+This comparison supports review of risk-response effectiveness and alternative management options.
+
+The supplied material states that risk reporting to the board and committees should be made at least quarterly.
+
+\section{External Reporting}\label{external-reporting}
+
+Organizations face increasing pressure for greater transparency, whether mandated or voluntary, and for better alignment between externally and internally reported information.
+
+Stakeholders expect greater corporate communication regarding risk and awareness of the role of proper risk management.
+
+Organizations should provide accurate, timely and high-quality reports to meet external stakeholders' needs.
+
+The material states that organizations should periodically review the effectiveness of their risk management systems and report to stakeholders on that effectiveness, together with an assessment of principal risks and how those risks are being managed or mitigated.
+
+Different customized risk reports may be prepared for different external stakeholders.
+
+\chapter{Risk Management Organization Structure}\label{risk-management-organization-structure}
+
+\section{Meaning of Organizational Structure}\label{meaning-of-organizational-structure}
+
+Organizational structure is the framework that holds an organization together and defines lines of authority within a company, nonprofit organization or governmental agency.
+
+A well-defined organizational structure provides a clear path for risk assessment procedures.
+
+Before risk assessment teams begin work, each member should have a good working understanding of how the company is organized. The organizational structure shows who is responsible for each area or operation being evaluated.
+
+\section{Traditional Structures}\label{traditional-structures}
+
+Traditional organizational structures typically show clear lines of authority emanating from a central manager at the top of the organization.
+
+The authority vested in each department is defined by its place within the organizational structure.
+
+Risk assessment operations can become constrained when assessment activities must strictly follow established lines of authority. Management of risks that cross established lines can become complicated and may require intervention from senior leadership.
+
+\section{Modern Structures}\label{modern-structures}
+
+Modern organizational structures are arranged around teams, organizational processes, organizational functions and virtual operations.
+
+These structures allow companies greater flexibility to react and adjust to changing market conditions and advancing technology.
+
+Risk assessment teams may find modern structures difficult to understand when there are no clear lines of authority for reporting identified risks.
+
+In response to changing business realities, many organizations are turning to enterprise risk management systems to evaluate and control risks.
+
+Effective enterprise risk management helps management define how risk factors are interrelated within an organization.
+
+\chapter{Glossary}\label{glossary}
+
+This glossary is based on terms used in the supplied course material.
+
+\textbf{Risk}\\
+The chance of loss or an unfavorable outcome associated with an action.
+
+\textbf{Risk assessment}\\
+The process of assessing identified risks according to potential severity of loss and probability of occurrence.
+
+\textbf{Risk management}\\
+The process of identifying, assessing and controlling threats to an organization's capital and earnings.
+
+\textbf{Risk transfer}\\
+The transfer of all or part of losses consequential to risk exposure to another party for a cost.
+
+\textbf{Risk avoidance}\\
+Avoiding a risk or circumstances that may lead to losses.
+
+\textbf{Risk retention}\\
+Retaining or assuming losses arising from a risk exposure.
+
+\textbf{Risk control}\\
+Measures used to control risk or losses.
+
+\textbf{Loss prevention}\\
+A technique that accepts a risk but attempts to minimize resulting loss.
+
+\textbf{Loss reduction}\\
+A technique that seeks to minimize loss if a threat occurs.
+
+\textbf{Separation}\\
+Dispersing key assets so that a catastrophic event at one location has a limited impact.
+
+\textbf{Duplication}\\
+Creating a backup plan or duplicate capability to reduce the effect of failure.
+
+\textbf{Diversification}\\
+Allocating resources across multiple lines of business, products, services or industries.
+
+\textbf{Gross risk}\\
+The assessment of risk before controls or risk responses are applied.
+
+\textbf{Net risk}\\
+The assessment of risk after controls or risk responses are taken into account.
+
+\textbf{Residual risk}\\
+Risk remaining after controls or risk responses have been applied.
+
+\textbf{Enterprise risk management (ERM)}\\
+An approach described in the material for evaluating and controlling interrelated risk factors within an organization.
+
+\chapter*{Source Notes}\label{source-notes}
+\addcontentsline{toc}{chapter}{Source Notes}
+
+This digital book was structured from the supplied course material titled \textbf{Introduction to Risk Management} by \textbf{Dr.~Peter Adamu}.
+
+The source document identifies the unit as \textbf{Unit I: Introduction to Risk Management} and covers:
+
+\begin{itemize}
+\tightlist
+\item
+  Introduction, meaning and definition of risk management
+\item
+  Risk management process
+\item
+  Risk management approaches and methods
+\item
+  Risk reporting process
+\item
+  Risk organization
+\end{itemize}
+
+The supplied material cites or names \textbf{Dr.~P.K. Gupta}, \textbf{Wikipedia}, and \textbf{Oxford Business Dictionary} in its discussion of definitions. Full bibliographic details were not provided in the supplied document, so no additional reference details have been invented in this edition.
+
+This edition reorganizes the supplied material into chapters and sections for digital publication. Any future academic revisions, references, examples, figures or institutional requirements should be reviewed and approved by the lecturer-author before publication.
+
+\end{document}

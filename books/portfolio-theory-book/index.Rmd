@@ -1,0 +1,70 @@
+---  
+title: "Portfolio Theory"  
+author:  
+  - "Dr. Micah Dogara"  
+  - "Department of Economics"
+date: "`r Sys.Date()`"  
+site: bookdown::bookdown_site  
+documentclass: book  
+bibliography: [book.bib]  
+biblio-style: apalike  
+link-citations: yes  
+colorlinks: yes  
+lot: yes  
+lof: yes  
+description: "Notes on portfolio theory, investment risk, and the CAPM."  
+---
+  
+```{r setup, include=FALSE}  
+knitr::opts_chunk$set(  
+  echo = TRUE, warning = FALSE, message = FALSE,  
+  fig.align = "center", out.width = "80%"  
+)  
+```  
+  
+# Welcome {-}  
+  
+These notes present an introduction to **portfolio theory** — the  
+framework for understanding how investors should and do combine assets  
+to manage risk and return.  
+  
+## What this book covers  
+  
+- **Chapter \@ref(chap-intro) — Introduction**: portfolio theory as a  
+  descriptive and normative theory, the "do not put all your eggs in  
+  one basket" principle, the origins of mean-variance analysis with  
+  Markowitz, and the role of investor psychology (bubbles, animal  
+  spirits, heuristics).  
+- **Chapter \@ref(chap-risk) — Risks on Investments**: the concept of  
+  risk and the risk–return trade-off, the major sources of risk  
+  (business, financial, purchasing power, interest rate, liquidity,  
+  tax, market, and event risk), and the distinction between  
+  diversifiable and non-diversifiable risk.  
+- **Chapter \@ref(chap-capm) — Capital Asset Pricing Model**: the  
+  development of the CAPM by Sharpe, Lintner, and Mossin, its  
+  assumptions and practical implications, the security market line,  
+  and the beta factor.  
+- **Chapter \@ref(chap-portfolio) — Diversification and Portfolio  
+  Theory**: systematic versus specific risk, volatility and value,  
+  uncorrelated returns, two-asset portfolios, short sales, the  
+  efficient frontier, and the capital market line.  
+- **Chapter \@ref(chap-capm-practice) — CAPM in Practice**: the  
+  components of required return under CAPM, five methods for  
+  calculating beta with worked illustrations, portfolio betas, gearing  
+  and ungeared/geared betas, the alpha factor, limitations of the  
+  CAPM, and the Arbitrage Pricing Theory as a multi-factor  
+  alternative.  
+- **Appendix**: a summary of all key formulas and full references.  
+  
+## Conventions used {-}  
+  
+Worked illustrations appear in *example* boxes and are numbered  
+(Illustration 1–7). Equations, tables, and figures are numbered and  
+cross-referenced throughout the text. Key definitions and results are  
+set in *definition*, *theorem*, and *note* blocks.  
+  
+:::{.rmdnote}  
+Solutions to the worked examples assume cash flows occur at the end of  
+the stated period, and rounding differences of a few kobo may appear  
+in NPV calculations.  
+:::

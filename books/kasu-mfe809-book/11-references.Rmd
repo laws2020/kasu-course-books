@@ -1,0 +1,22 @@
+# References and Source Notes
+
+## References Supplied in the Course Material
+
+1. Anyanwu, J. C. *Monetary Economics: Theory, Policy and Institutions.*
+2. Central Bank of Nigeria. Annual Reports and Statistical Bulletin.
+3. Jhingan, M. L. *Money, Banking, International Trade and Public Finance.*
+4. Ojo, M. O. *Principles and Practice of Banking.*
+5. Umole, M. A. *Financial Institutions and Markets.*
+6. Mishkin, F. S. *The Economics of Money, Banking and Financial Markets.*
+
+## Institutional Sources Mentioned in the Notes
+
+The supplied lecture material refers to the Central Bank of Nigeria, Nigeria Deposit Insurance Corporation, Securities and Exchange Commission, National Insurance Commission, National Pension Commission, International Monetary Fund, World Bank/IBRD, and African Development Bank.
+
+## Editorial Source Notes
+
+This digital book is based on the MFE 809 course outline and lecture notes supplied for the project. The material has been reorganized into chapters for readability and navigation.
+
+The supplied notes contain some historical statements that should be checked against authoritative sources before the book is formally approved or published as an institutional course text. The current edition does not silently replace those statements with independently researched alternatives.
+
+The book should therefore be treated as a structured digital edition of the supplied teaching material pending lecturer and departmental review.

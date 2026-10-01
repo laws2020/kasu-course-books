@@ -1,0 +1,26 @@
+book_filename: "mfe809-banking"  
+chapter_name: "Chapter "  
+output_dir: "_book"  
+new_session: yes  
+delete_merged_file: true  
+language:  
+  ui:  
+    chapter_name: "Chapter "  
+rmd_files:  
+  - "index.Rmd"  
+  - "01-financial-systems.Rmd"  
+  - "02-nigerian-structure.Rmd"  
+  - "03-financial-institutions.Rmd"  
+  - "04-financial-markets.Rmd"  
+  - "05-banking-system.Rmd"  
+  - "06-banking-operations.Rmd"  
+  - "07-risk-management.Rmd"  
+  - "08-regulation-supervision.Rmd"  
+  - "09-monetary-policy.Rmd"  
+  - "10-intermediation-inclusion.Rmd"  
+  - "11-banking-reforms.Rmd"  
+  - "12-ebanking-innovation.Rmd"  
+  - "13-international-banking.Rmd"  
+  - "14-contemporary-issues.Rmd"  
+  - "15-appendix.Rmd"
+  

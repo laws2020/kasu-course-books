@@ -1,0 +1,195 @@
+# Regulatory Institutions in the Domestic Environment {#chap-domestic}  
+  
+## Objectives of Regulating Financial Institutions  
+  
+A close study of banking regulation in Nigeria indicates the intended  
+objectives include:  
+  
+- Promotion of monetary and economic stability  
+- Protection of depositors and investors  
+- Prevention or minimisation of systemic failure  
+- Promotion of market integrity and discipline  
+- Maintenance of uniformity and standardisation of practice  
+- Maintenance of responsible corporate governance  
+- Maintenance and restoration of public confidence in the system  
+- Encouragement of banking habit and culture  
+- Instilling competitive equity (a level playing field)  
+- Restraint on certain activities  
+- General consumer protection  
+- Efficiency in the system and development of the economy  
+- Better service delivery  
+  
+## The Central Bank of Nigeria (CBN) {#sec-cbn}  
+  
+The CBN is the apex regulatory authority in the Nigerian banking  
+sector. Its functions are:  
+  
+**(a) Issuance of legal tender currency.** The Bank assumed currency  
+issue and distribution in 1959, replacing the West African Currency  
+Board pound with the Nigerian pound. The decimal denominations (naira  
+and kobo) were introduced in 1973; the ₦20 note in 1976; a colour  
+swap in 1984 to discourage hoarding and counterfeiting; a 1991 reform  
+phasing out 2k and 5k coins, redesigning 1k, 10k and 25k coins, coining  
+50k and ₦1, and issuing the ₦50 note; then ₦100 and ₦200 notes in  
+December 1999 and November 2000, and the ₦500 note in 2001.  
+  
+**(b) Maintenance of external reserves.** To safeguard the  
+international value of the currency, the CBN manages the country's  
+foreign exchange and is involved in debt management.  
+  
+**(c) Debt management.** The CBN historically managed domestic debt  
+and serviced external debt on the advice of the Federal Ministry of  
+Finance — advising on timing and size of new instruments, advertising  
+public subscriptions, redeeming matured stock, paying interest and  
+principal, and sensitising government on debt and deficit  
+implications. In 2001 this responsibility transferred to the Debt  
+Management Office (DMO).  
+  
+**(d) Foreign exchange management.** Acquisition and deployment of  
+foreign exchange resources to reduce the destabilising effects of  
+short-term capital flows, ensuring disbursement aligns with economic  
+priorities and the annual foreign exchange budget to maintain the  
+balance-of-payments position and naira stability.  
+  
+**(e) Promotion of monetary stability and a sound financial system.**  
+Price stability is indispensable for money to perform as medium of  
+exchange, store of value, standard of deferred payments and unit of  
+account. Since 30 June 1993 the CBN has used market-based monetary  
+policy, with Open Market Operations (OMO) as the principal instrument.  
+  
+**(f) Banker and financial adviser to the Federal Government.** The  
+CBN undertakes most Federal Government banking business, provides  
+services to State and Local Governments, finances temporary budget  
+shortfalls through Ways and Means Advances (within legal limits), and  
+acts as issuing house for government debt instruments.  
+  
+**(g) Banker and lender of last resort to banks.** The CBN maintains  
+current accounts for deposit money banks, provides clearing-house  
+facilities, undertakes trade finance on behalf of banks' customers,  
+and provides temporary accommodation as lender of last resort.  
+  
+## Nigerian Deposit Insurance Corporation (NDIC) {#sec-ndic}  
+  
+The NDIC is an autonomous body acting as a supervisory authority over  
+licensed banks. It provides a financial guarantee to depositors and  
+ensures banks comply with regulations fostering safety and soundness.  
+  
+### Rationale for the deposit insurance scheme  
+  
+The scheme was established in 1989 under Decree No. 22 of 1988, for  
+four reasons:  
+  
+1. **Lessons of history** — in the 1950s, 21 of 25 indigenous banks  
+   failed and small depositors suffered untold hardship.  
+2. **International precedent** — Czechoslovakia established the first  
+   nationwide scheme in 1924 to revitalise banking after World War I;  
+   the US established the FDIC in 1933 in response to banking collapse  
+   and panic.  
+3. **Structural Adjustment Programme (1986)** — deregulation and  
+   liberalised licensing implied more banks to supervise; an explicit  
+   deposit insurance scheme with supervisory powers was expected to  
+   complement the CBN, enabling more frequent routine and special  
+   examinations.  
+4. **Failure resolution** — government had previously been unwilling  
+   to let any bank fail, propping up inefficient (often state-owned)  
+   banks. The Corporation administers deposit protection and provides  
+   a vehicle for resolving badly managed insolvent banks.  
+  
+### Mandates of the NDIC  
+  
+- **Deposit guarantee**: depositors are protected against loss of  
+  insured deposits when a bank cannot meet its obligations.  
+- **Bank supervision**: protects depositors, ensures safety and  
+  soundness, reduces the risk of failure, and checks unsafe practices.  
+- **Failure resolution**: ensures failing institutions are resolved  
+  in a timely, efficient manner.  
+- **Bank liquidation**: orderly closure of failed institutions with  
+  minimum disruption, cost-effective realisation of assets, and  
+  settlement of claims to depositors, creditors and shareholders.  
+  
+### Functions of the NDIC (Section 2, NDIC Act 2006)  
+  
+- Insuring all deposit liabilities of licensed banks and other covered  
+  financial institutions to engender confidence  
+- Giving financial and technical assistance to eligible insured  
+  institutions in the interest of depositors  
+- Guaranteeing payment to depositors up to the statutory maximum where  
+  an insured institution suspends payments  
+- Assisting monetary authorities in formulating and implementing  
+  policies for sound banking and fair competition  
+- Pursuing any other measures necessary to achieve its functions  
+  
+## Securities and Exchange Commission (SEC) {#sec-sec}  
+  
+The SEC is the apex regulatory institution of the Nigerian capital  
+market, playing a role parallel to the CBN's in the money market.  
+  
+### Objectives  
+  
+1. **Investor protection** — financial assets cannot have their worth  
+   determined by physical examination, and financial services are  
+   complex, so issuers must provide relevant, timely, adequate  
+   information; protection also targets fraud, false claims, price  
+   manipulation and misuse of undisclosed price-sensitive information.  
+2. **Capital market development** — creating awareness of the market  
+   as a source of investment finance, researching market efficiency,  
+   introducing new instruments, and advising government on capital  
+   market issues.  
+  
+### Functions of the SEC  
+  
+- Determining the price, amount and timing of securities offered by  
+  sale or subscription  
+- Registering securities proposed for public offer  
+- Maintaining surveillance to ensure orderly, fair and equitable  
+  dealings  
+- Registering stock exchanges, registrars, securities dealers and  
+  other market operators to maintain standards and professionalism  
+- Protecting market integrity against insider trading abuses  
+- Acting as apex regulator over the Nigerian Stock Exchange and its  
+  branches  
+- Reviewing, approving and regulating business combinations  
+- Creating the atmosphere for orderly growth and development of the  
+  capital market  
+  
+### How SEC protects the investing public  
+  
+- Full disclosure in prospectuses  
+- Adequate and timely financial reporting  
+- Fair and equitable issuance of securities  
+- Fair trading practices  
+  
+## National Insurance Commission (NAICOM) {#sec-naicom}  
+  
+NAICOM was established in 1997 by the NAICOM Act No. 1 of 1997 to  
+enhance the effective administration, supervision, regulation and  
+control of insurance business in Nigeria.  
+  
+### Services rendered by NAICOM  
+  
+- Establishing standards for the conduct of insurance business  
+- Approving insurance premium rates and commission rates for all  
+  classes of business  
+- Ensuring adequate protection of strategic government assets  
+- Regulating transactions between Nigerian insurers/reinsurers and  
+  those outside Nigeria  
+- Advising the Federal Government on insurance matters  
+- Approving standards, conditions and warranties for all classes of  
+  insurance  
+- Protecting policyholders, beneficiaries and third parties  
+- Publishing annual reports and statistics on the insurance industry  
+- Liaising with government bodies on insurance matters in technical  
+  agreements to which Nigeria is a signatory  
+- Contributing to the educational programmes of the Chartered  
+  Insurance Institute of Nigeria and the West African Insurance  
+  Institute  
+  
+### Customers and performance targets  
+  
+NAICOM serves insurance and reinsurance companies, brokers, loss  
+adjusters and agents, the insuring public, and all tiers of  
+government. Targets include:  
+  
+1. A peaceful, orderly, well-regulated insurance industry, with claims  
+   paid within 3 months (90 days)  
+2. Registration of companies within 2 months (60 days)

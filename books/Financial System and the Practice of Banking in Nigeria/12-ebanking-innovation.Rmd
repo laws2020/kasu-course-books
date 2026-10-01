@@ -1,0 +1,6 @@
+# Electronic Banking and Financial Innovation {#chap-ebanking}  
+  
+This chapter covers: e-banking, mobile banking, and digital payments;  
+the role of OPay and PalmPay; and cybersecurity and fraud management.  
+  
+<!-- Week 12 content to be added -->

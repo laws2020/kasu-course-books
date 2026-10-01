@@ -1,0 +1,18 @@
+book_filename: "financial-system-and-the-practice-of-banking-in-nigeria"
+output_dir: "_output"
+language:
+  ui:
+    chapter_name: "Chapter "
+rmd_files:
+  - index.Rmd
+  - 01-financial-system-overview.Rmd
+  - 02-nigerian-financial-system-evolution.Rmd
+  - 03-formal-and-informal-financial-sectors.Rmd
+  - 04-financial-institutions-in-nigeria.Rmd
+  - 05-financial-markets-and-regulation.Rmd
+  - 06-banking-system-and-practice.Rmd
+  - 07-risk-monetary-policy-and-intermediation.Rmd
+  - 08-reforms-innovation-and-contemporary-issues.Rmd
+  - 09-comparative-financial-systems.Rmd
+  - 10-review-questions-and-practical-work.Rmd
+  - 11-references.Rmd

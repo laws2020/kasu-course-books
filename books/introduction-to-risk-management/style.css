@@ -1,0 +1,25 @@
+/* Clean academic digital-book styling */
+.book .book-header h1 {
+  font-weight: 700;
+}
+
+.book .book-summary {
+  font-size: 0.95em;
+}
+
+.book .book-body .page-wrapper .page-inner {
+  max-width: 900px;
+}
+
+.book .book-body .page-inner section.normal {
+  line-height: 1.7;
+}
+
+.book .book-body .page-inner section.normal h1,
+.book .book-body .page-inner section.normal h2 {
+  letter-spacing: -0.01em;
+}
+
+.book .book-body .page-inner section.normal blockquote {
+  margin-left: 0;
+}

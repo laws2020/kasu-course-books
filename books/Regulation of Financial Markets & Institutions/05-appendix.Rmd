@@ -1,0 +1,24 @@
+# (APPENDIX) Appendix {-}  
+  
+# Regulator Summary {-}  
+  
+```{r regulators, echo=FALSE}  
+regs <- data.frame(  
+  Institution = c("CBN", "NDIC", "SEC", "NAICOM", "IMF"),  
+  Domain = c("Banking / monetary policy",  
+             "Deposit insurance, bank supervision, liquidation",  
+             "Capital market",  
+             "Insurance business",  
+             "International monetary system"),  
+  Established = c("1959 (operations)", "1989 (Decree 22 of 1988)",  
+                  "Statutory regulator of the capital market",  
+                  "1997 (NAICOM Act No. 1)", "1944/1945 (Bretton Woods)")  
+)  
+knitr::kable(regs, caption = "Key regulatory institutions",  
+             booktabs = TRUE)  
+```  
+  
+See Sections \@ref(sec-cbn), \@ref(sec-ndic), \@ref(sec-sec),  
+\@ref(sec-naicom), and \@ref(sec-imf) for details.  
+  
+# References {-}

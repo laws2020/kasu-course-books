@@ -1,0 +1,121 @@
+---  
+title: "Financial System and the Practice of Banking in Nigeria"  
+subtitle: "MFE 809 — Lecture Notes"  
+author: "Dr. John Nkom"  
+institute: "Department of Economics, Kaduna State University (KASU)"  
+date: "`r format(Sys.Date(), '%B %Y')`"  
+site: bookdown::bookdown_site  
+documentclass: book  
+bibliography: [book.bib]  
+biblio-style: apalike  
+link-citations: yes  
+colorlinks: yes  
+lot: yes  
+lof: yes  
+description: "MFE 809 lecture notes on the Nigerian financial system, banking practice, regulation, monetary policy, and contemporary banking issues. Kaduna State University."  
+---  
+  
+```{r setup, include=FALSE}  
+knitr::opts_chunk$set(  
+  echo = TRUE, warning = FALSE, message = FALSE,  
+  fig.align = "center", out.width = "80%"  
+)  
+```  
+  
+# Course Information {-}  
+  
+| | |  
+|:---|:---|  
+| **Course code** | MFE 809 |  
+| **Course title** | Financial System and the Practice of Banking in Nigeria |  
+| **Programme** | Masters in Financial Economics (MFE) |  
+| **Level** | Postgraduate (MSc/MBA) |  
+| **Credit units** | 3 |  
+| **Duration** | 12–15 weeks |  
+| **Institution** | Kaduna State University (KASU), Kaduna |  
+| **Lecturer** | Dr. John Nkom |  
+  
+# Welcome {-}  
+  
+These are the lecture notes for **MFE 809: Financial System and the  
+Practice of Banking in Nigeria** at Kaduna State University. The  
+course provides an in-depth analysis of the Nigerian financial system  
+— its structure, institutions, regulatory framework, and operational  
+dynamics — and explores banking practices, financial intermediation,  
+monetary policy, risk management, financial innovation, and  
+contemporary issues in the Nigerian banking sector.  
+  
+## Course objectives {-}  
+  
+By the end of this course, students should be able to:  
+  
+- Analyze the structure and functions of the Nigerian financial system  
+- Evaluate the role of financial institutions in economic development  
+- Examine banking operations and practices in Nigeria  
+- Assess regulatory and supervisory frameworks  
+- Understand monetary policy transmission mechanisms  
+- Analyze risks in banking and financial institutions  
+- Evaluate financial sector reforms and innovations  
+  
+## Learning outcomes {-}  
+  
+Students will be able to:  
+  
+- Demonstrate advanced knowledge of financial intermediation  
+- Critically evaluate banking policies and reforms in Nigeria  
+- Apply analytical tools to financial sector issues  
+- Conduct empirical and policy-based research  
+  
+## Weekly structure {-}  
+  
+| Week | Topic | Chapter |  
+|-----:|:------|:--------|  
+| 1 | Overview of Financial Systems | \@ref(chap-systems) |  
+| 2 | Structure of the Nigerian Financial System | \@ref(chap-structure) |  
+| 3 | Financial Institutions in Nigeria | \@ref(chap-institutions) |  
+| 4 | Financial Markets in Nigeria | \@ref(chap-markets) |  
+| 5 | Banking System in Nigeria | \@ref(chap-banksystem) |  
+| 6 | Banking Operations and Practices | \@ref(chap-operations) |  
+| 7 | Risk Management in Banking | \@ref(chap-riskmgmt) |  
+| 8 | Regulation and Supervision of Banks | \@ref(chap-regulation) |  
+| 9 | Monetary Policy and the Banking System | \@ref(chap-monetary) |  
+| 10 | Financial Intermediation and Inclusion | \@ref(chap-inclusion) |  
+| 11 | Banking Reforms in Nigeria | \@ref(chap-reforms) |  
+| 12 | Electronic Banking and Financial Innovation | \@ref(chap-ebanking) |  
+| 13 | International Banking and the Global Financial System | \@ref(chap-intlbank) |  
+| 14 | Contemporary Issues in Nigerian Banking | \@ref(chap-contemporary) |  
+| 15 | Student Presentations and Review | — |  
+  
+## Teaching and assessment {-}  
+  
+**Teaching methods:** lectures, case studies on the Nigerian banking  
+sector, seminar presentations, and data analysis/empirical reviews.  
+  
+**Assessment:**  
+  
+- *Continuous assessment (30%)* — assignments, class participation,  
+  group presentations  
+- *Final examination (70%)*  
+  
+**Course requirements:** regular attendance, participation in  
+seminars, submission of assignments, and a term paper on a Nigerian  
+financial system topic.  
+  
+**Practical components:** analysis of Nigerian bank financial  
+statements, review of monetary policy reports, and case studies of  
+banking crises in Nigeria.  
+  
+:::{.rmdnote}  
+Advanced additions available for interested students: econometric  
+analysis of banking data, financial modelling, and policy simulation  
+exercises.  
+:::  
+  
+## Recommended reading {-}  
+  
+**Core textbooks:** *Financial Institutions and Markets*; *The  
+Nigerian Financial System*.  
+  
+**Journals and reports:** Central Bank of Nigeria Statistical  
+Bulletin; NDIC Annual Reports; IMF and World Bank financial sector  
+reports. See the References chapter for full details.

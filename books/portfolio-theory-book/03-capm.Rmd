@@ -1,0 +1,75 @@
+# Capital Asset Pricing Model {#chap-capm}  
+  
+The CAPM was developed by @sharpe1964, @lintner1965, and @mossin1966.  
+The model shows the relationship between the expected return of a  
+security and its unavoidable risk. It also provides a framework for  
+the valuation of securities and can be used to find the cost of a  
+company's equity.  
+  
+## Risk and the CAPM  
+  
+By risk we mean that actual returns on an investment might turn out  
+better or worse than hoped. Risks that can on the whole be diversified  
+away are **unsystematic** risk. Investments also carry an inherent  
+risk characteristic to the nature of the investment itself, which  
+cannot be diversified away; this is **systematic** (market) risk. By  
+accepting systematic risk, an investor expects to earn a return higher  
+than the return on a risk-free investment. Investors should not  
+require a premium for unsystematic risk because it can be diversified  
+away by holding a well-spread portfolio.  
+  
+## Assumptions of CAPM  
+  
+1. Investors are risk-averse individuals who maximize the expected  
+   utility of their end-of-period wealth (a one-period model).  
+2. Investors are price takers with homogeneous expectations about  
+   security returns, which have a joint normal distribution.  
+3. A risk-free security exists such that investors may borrow or lend  
+   unlimited amounts at the risk-free rate.  
+4. All securities are marketable and perfectly divisible.  
+5. Security markets are frictionless: information is costless and  
+   simultaneously available to all investors.  
+6. There are no market imperfections such as taxes, regulations, or  
+   transaction costs; no investor is large enough to affect market  
+   prices.  
+7. The stock market is efficient: security values reflect all known  
+   information available to all investors at low cost.  
+  
+## Implications of CAPM  
+  
+1. Investors should hold portfolios that diversify away most unique  
+   unsystematic risk.  
+2. The CAPM can be used to compute the discount rate for equity  
+   valuation in the dividend valuation model.  
+3. Individual shares have systematic risk characteristics that differ  
+   from the market average — some are less risky, some more risky.  
+4. An investor holding a balanced portfolio of all stocks incurs  
+   systematic risk exactly equal to the average systematic risk of the  
+   market as a whole.  
+5. To avoid risk altogether, an investor must hold a portfolio  
+   consisting entirely of risk-free securities.  
+  
+## The Security Market Line {#sec-sml}  
+  
+Given the assumptions of CAPM, the expected return of each financial  
+asset falls on the **security market line** (SML):  
+  
+\begin{equation}  
+E(R_i) = R_f + \left(E(R_M) - R_f\right)\beta_i,  
+\qquad  
+\beta_i = \frac{\mathrm{Cov}(R_i, R_M)}{\sigma_M^2}  
+(\#eq:sml)  
+\end{equation}  
+  
+where $E(R_i)$ is the expected return on security $i$, $R_f$ is the  
+risk-free rate, $E(R_M)$ is the expected return on the market  
+portfolio, $\mathrm{Cov}(R_i,R_M)$ is the covariance of the security  
+with market returns, and $\sigma_M^2$ is the variance of market  
+returns.  
+  
+::: {.definition #def-beta name="Beta"}  
+The **beta factor** $\beta_i$ in Equation \@ref(eq:sml) measures the  
+security's systematic risk. The expected return equals the risk-free  
+rate plus a risk premium — the price of risk multiplied by the  
+quantity of risk.  
+:::

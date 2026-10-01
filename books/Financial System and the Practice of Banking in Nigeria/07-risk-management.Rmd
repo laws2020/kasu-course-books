@@ -1,0 +1,137 @@
+# Risk Management in Banking {#chap-riskmgmt}  
+  
+## Learning Objectives {-}  
+  
+At the end of this chapter, students should be able to:  
+  
+1. Identify major banking risks.  
+2. Explain methods of risk measurement.  
+3. Evaluate risk management strategies.  
+4. Understand Basel regulatory standards.  
+5. Assess compliance requirements in banking.  
+  
+## Introduction  
+  
+Risk management is the process of identifying, measuring, monitoring,  
+and controlling risks that may affect a bank's profitability and  
+stability. Banks operate in highly uncertain environments and face  
+numerous risks.  
+  
+## Types of Banking Risks  
+  
+```{r bankrisks, echo=FALSE}  
+risks <- data.frame(  
+  Risk = c("Credit risk", "Liquidity risk", "Market risk",  
+           "Operational risk"),  
+  Meaning = c("Possibility that borrowers will fail to repay loans",  
+              "Risk that a bank may not meet its obligations when due",  
+              "Risk from changes in market prices",  
+              "Risk from failed processes, systems, people, or external events"),  
+  `Sources/examples` = c("Loan defaults; economic downturns; poor credit appraisal",  
+                         "Massive withdrawals; asset–liability mismatch; funding shortages",  
+                         "Interest rate, foreign exchange, equity price, and commodity price risk",  
+                         "Fraud; cyberattacks; human error; system failures")  
+)  
+knitr::kable(risks, caption = "Major types of banking risks",  
+             booktabs = TRUE)  
+```  
+  
+**Credit risk effects:** financial losses, reduced profitability, and  
+increased non-performing loans. **Liquidity risk management:**  
+maintaining liquid assets, cash reserve management, and liquidity  
+forecasting.  
+  
+## Risk Measurement and Management Tools  
+  
+### Credit risk measurement  
+  
+- **Credit scoring models** — assess borrower creditworthiness  
+- **Probability of default (PD)** — likelihood of borrower default  
+- **Loss given default (LGD)** — amount likely to be lost upon default  
+  
+### Market risk measurement  
+  
+- **Value at Risk (VaR)** — estimates potential losses under normal  
+  market conditions  
+- **Stress testing** — evaluates bank resilience under extreme  
+  scenarios  
+  
+### Liquidity risk measurement  
+  
+- **Liquidity Coverage Ratio (LCR)** — short-term liquidity strength  
+- **Net Stable Funding Ratio (NSFR)** — long-term funding stability  
+  
+### Operational risk measurement  
+  
+- **Risk Control Self-Assessment (RCSA)** — internal risk evaluation  
+- **Key Risk Indicators (KRIs)** — metrics to monitor risk levels  
+  
+## Risk Management Techniques  
+  
+- **Diversification** — spreading investments and loans across sectors  
+- **Hedging** — using futures contracts, options, and swaps to reduce  
+  exposure  
+- **Internal controls** — segregation of duties, audit functions,  
+  compliance monitoring  
+- **Capital buffer maintenance** — holding additional capital against  
+  unexpected losses  
+  
+## The Basel Accords  
+  
+::: {.definition #def-basel name="Basel Accords"}  
+The Basel Accords are international banking regulations developed by  
+the Basel Committee on Banking Supervision to strengthen banking  
+supervision and financial stability.  
+:::  
+  
+### Basel I (1988)  
+  
+Focused on capital adequacy, with a minimum capital ratio of 8%.  
+  
+### Basel II (2004)  
+  
+Built on three pillars:  
+  
+1. **Pillar 1** — minimum capital requirements  
+2. **Pillar 2** — supervisory review process  
+3. **Pillar 3** — market discipline  
+  
+### Basel III (2010)  
+  
+Introduced after the global financial crisis. Key features: higher  
+capital requirements, liquidity standards, a leverage ratio, and  
+stress testing requirements. Specific requirements include the  
+**capital conservation buffer** (additional capital held in normal  
+periods), the **liquidity coverage ratio** (adequate liquid assets),  
+and the **leverage ratio** (limits on excessive borrowing).  
+  
+### Basel compliance in Nigeria  
+  
+The CBN and the NDIC supervise compliance with prudential guidelines  
+and Basel standards. Key compliance areas: capital adequacy, liquidity  
+requirements, risk management frameworks, corporate governance, and  
+regulatory reporting.  
+  
+## Summary  
+  
+Banking operations revolve around deposit mobilization, credit  
+creation, lending, and balance sheet management — through which banks  
+facilitate intermediation and growth. These activities expose banks to  
+credit, liquidity, market, and operational risks. Effective risk  
+management frameworks, supported by Basel I–III, are essential for the  
+safety, soundness, and stability of the banking system.  
+  
+## Discussion Questions {.unnumbered}  
+  
+1. Explain how deposit mobilization contributes to economic  
+   development.  
+2. Discuss the process of credit creation and its implications for  
+   monetary policy.  
+3. Evaluate the Five Cs of Credit in bank lending decisions.  
+4. Analyze the major components of a commercial bank's balance sheet.  
+5. Compare credit risk and liquidity risk in banking.  
+6. Discuss the relevance of Basel III to modern banking regulation.  
+7. Explain how Nigerian banks manage operational risk in the digital  
+   banking era.  
+8. Assess the role of the CBN in banking risk management and  
+   supervision.

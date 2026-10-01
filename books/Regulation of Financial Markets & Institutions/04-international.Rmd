@@ -1,0 +1,136 @@
+# International Dimensions of Financial Regulation {#chap-intl}  
+  
+## International Financial Market Difficulties  
+  
+The globalisation of financial markets is a major challenge to  
+regulation, which continues to be carried out by national governments.  
+  
+### The difficulties  
+  
+1. **Contagion.** Growing interdependence means financial  
+   difficulties in one country can easily spill over to others; a  
+   systemic crisis in one country — mishandled by its authorities —  
+   may lead to a global banking crisis.  
+2. **Regulation as a tax.** Regulation affects the international  
+   competitiveness of financial institutions, and different regimes  
+   create barriers to cross-border trade in financial services —  
+   e.g., different capital requirements produce an uneven playing  
+   field.  
+3. **Regulatory arbitrage.** Institutions may relocate abroad to  
+   escape stringent domestic regulation, impairing its effectiveness  
+   and potentially driving a *downward regulatory spiral*. Game-  
+   theoretic analysis, however, suggests limits to this process: in  
+   less-integrated retail markets, countries can maintain higher  
+   standards as a signal of quality differentiation where customers  
+   value it.  
+  
+### Possible remedies  
+  
+The concern for distorted international competition has driven efforts  
+toward worldwide solutions, reinforced by recent crises and by the  
+shift from structural towards prudential regulation:  
+  
+- **National treatment**: giving foreign branches and subsidiaries the  
+  same treatment as domestic banks.  
+- **Home-country control**: monitoring cross-border transactions of  
+  intermediaries by the home country, with banks' own risk-assessment  
+  procedures subject only to regulatory review.  
+- **Minimum standards**: the European Union links mutual recognition  
+  and home-country control to minimum conduct standards; the Basel  
+  Committee has laid down common bank capital rules — though these are  
+  criticised for arbitrariness and inflexibility.  
+- **Wider agreement**: as @goldstein1997 argued, an agreement  
+  extending minimum capital standards beyond the Basel countries may  
+  eventually be attained — though deeper international cooperation on  
+  supervision remains difficult.  
+  
+:::{.rmdnote}  
+Because agreement on international regulation is hard to reach, the  
+overall trend is toward greater reliance on *market* discipline rather  
+than regulator discipline. The lender-of-last-resort function remains  
+largely a national central-bank endeavour; whether emergency liquidity  
+should extend to non-bank intermediaries, or be provided  
+internationally, is still debated.  
+:::  
+  
+## The International Monetary Fund (IMF) {#sec-imf}  
+  
+### Meaning  
+  
+The IMF is an international organisation initiated in 1944 at the  
+Bretton Woods Conference and formally created in 1945 by 29 member  
+countries, to help reconstruct the post-World War II international  
+payments system. Countries contribute to a pool through a quota  
+system, from which members with payment imbalances can borrow  
+temporarily [@escobar1980]. The IMF describes itself as "an  
+organization of 188 countries, working to foster global monetary  
+cooperation, secure financial stability, facilitate international  
+trade, promote high employment and sustainable economic growth, and  
+reduce poverty around the world" [@imf2012]. Its headquarters are in  
+Washington, D.C.  
+  
+### Functions  
+  
+The IMF fosters global growth and economic stability, providing policy  
+advice and financing to members in difficulty and helping developing  
+nations achieve macroeconomic stability and reduce poverty. The  
+rationale is that private international capital markets function  
+imperfectly and many countries have limited market access; without  
+official financing, large external imbalances could only be corrected  
+through measures harmful to national and international prosperity  
+[@isard2005].  
+  
+At formation, the IMF's two primary functions were:  
+  
+1. Overseeing the fixed exchange rate arrangements between countries,  
+   helping governments manage exchange rates while prioritising  
+   growth;  
+2. Providing short-term capital to aid balance of payments, to prevent  
+   the spread of international economic crises.  
+  
+After the move to floating exchange rates post-1971, the Fund's role  
+shifted to *surveillance* of the overall macroeconomic performance of  
+member countries — examining whether capital shortages reflected  
+economic fluctuations or policy [@jensen2004]. The new challenge is  
+policy that reduces crisis frequency among emerging-market countries  
+open to massive capital outflows.  
+  
+Under **conditionality** (established in the 1950s), the IMF  
+negotiates conditions on lending:  
+  
+- **Concessional lending** (low-income countries, initially  
+  interest-free): Extended Credit Facility (ECF), Standby Credit  
+  Facility (SCF), Rapid Credit Facility (RCF).  
+- **Non-concessional lending** (with interest): Stand-By Arrangements  
+  (SBA), Flexible Credit Line (FCL), Precautionary and Liquidity Line  
+  (PLL), Extended Fund Facility.  
+- **Emergency assistance**: the Rapid Financing Instrument (RFI) for  
+  urgent balance-of-payments needs.  
+  
+### Surveillance of the global economy  
+  
+The IMF is mandated to oversee the international monetary and  
+financial system and monitor the economic and financial policies of  
+its 188 member countries. Since the demise of Bretton Woods in the  
+early 1970s, surveillance has evolved through procedural changes  
+rather than new obligations — the Fund moved from *guardian* to  
+*overseer* of members' policies, analysing each country's policies for  
+orderly growth and assessing spillovers to other countries and the  
+global economy.  
+  
+### Conditionality of loans  
+  
+::: {.definition #def-conditionality name="IMF conditionality"}  
+IMF conditionality is the set of policies the Fund requires in  
+exchange for financial resources. Rather than collateral, the IMF  
+requires the government to correct macroeconomic imbalances through  
+policy reform; if conditions are not met, funds are withheld.  
+:::  
+  
+Conditionality is the most controversial aspect of IMF policy. It was  
+introduced by an Executive Board decision in 1952 and later  
+incorporated into the Articles of Agreement. Its theoretical  
+underpinning — stemming largely from the work of Jacques Polak — is  
+the "monetary approach to the balance of payments" [@chorev2009]. See  
+@stiglitz2002 and @friedman2002 for a prominent critique and  
+discussion.

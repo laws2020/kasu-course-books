@@ -1,0 +1,28 @@
+# (APPENDIX) Appendix {-}  
+  
+# Course Summary {-}  
+  
+```{r weeksummary, echo=FALSE}  
+weeks <- data.frame(  
+  Week = 1:15,  
+  Topic = c("Overview of Financial Systems",  
+            "Structure of the Nigerian Financial System",  
+            "Financial Institutions in Nigeria",  
+            "Financial Markets in Nigeria",  
+            "Banking System in Nigeria",  
+            "Banking Operations and Practices",  
+            "Risk Management in Banking",  
+            "Regulation and Supervision of Banks",  
+            "Monetary Policy and the Banking System",  
+            "Financial Intermediation and Inclusion",  
+            "Banking Reforms in Nigeria",  
+            "Electronic Banking and Financial Innovation",  
+            "International Banking and the Global Financial System",  
+            "Contemporary Issues in Nigerian Banking",  
+            "Student Presentations and Review")  
+)  
+knitr::kable(weeks, caption = "MFE 809 weekly course outline",  
+             booktabs = TRUE)  
+```  
+  
+# References {-}

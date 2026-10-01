@@ -1,0 +1,245 @@
+# Banking System in Nigeria {#chap-banksystem}  
+  
+## Learning Objectives {-}  
+  
+At the end of this chapter, students should be able to:  
+  
+1. Explain the concept and structure of the Nigerian banking system.  
+2. Identify and discuss the major types of banks operating in Nigeria.  
+3. Analyze the ownership and organizational structure of banks.  
+4. Explain the concept and evolution of universal banking in Nigeria.  
+5. Evaluate the contributions of different banking institutions to  
+   economic development.  
+6. Examine contemporary issues and challenges facing the Nigerian  
+   banking system.  
+  
+## Introduction to the Nigerian Banking System  
+  
+The banking system is a critical component of the financial system  
+that facilitates the mobilization of savings, allocation of credit,  
+payment services, and implementation of monetary policy. The Nigerian  
+banking system consists of institutions licensed by the Central Bank  
+of Nigeria (CBN) to conduct banking activities, playing a crucial role  
+in financial intermediation by channelling funds from surplus economic  
+units to deficit economic units.  
+  
+## Historical Development of Banking in Nigeria  
+  
+```{r bankhist, echo=FALSE}  
+hist <- data.frame(  
+  Era = c("Colonial (1892–1960)", "Post-independence (1960–1985)",  
+          "Structural adjustment (1986–2004)",  
+          "Consolidation (2004–2005)", "Post-consolidation"),  
+  `Key developments` = c(  
+    "First bank (African Banking Corporation, 1892); entry of foreign banks such as the Bank of British West Africa; banking mainly served colonial commercial interests",  
+    "Expansion of indigenous banks; increased government participation; introduction of banking regulation",  
+    "Financial liberalization; rapid growth in the number of banks; emergence of merchant and community banks",  
+    "Under CBN Governor Charles Soludo, minimum capital rose from ₦2 billion to ₦25 billion; bank numbers fell from 89 to 25 through mergers and acquisitions",  
+    "Strengthened supervision; adoption of financial technology; enhanced corporate governance; expansion of digital banking")  
+)  
+knitr::kable(hist, caption = "Historical development of banking in Nigeria",  
+             booktabs = TRUE)  
+```  
+  
+## Types of Banks in Nigeria  
+  
+### Commercial banks (Deposit Money Banks)  
+  
+Financial institutions licensed to accept deposits from the public and  
+provide loans and other financial services for profit — the largest  
+segment of the Nigerian banking industry.  
+  
+**Functions:**  
+  
+1. *Deposit mobilization* — collecting savings from individuals,  
+   businesses, and government agencies.  
+2. *Credit creation* — loans and advances to households and  
+   businesses.  
+3. *Payment services* — cheque clearing, electronic transfers, ATM  
+   transactions, mobile and internet banking.  
+4. *Foreign exchange transactions*.  
+5. *Financial advisory services* — financial planning and investment  
+   advice.  
+  
+**Characteristics:** accept demand deposits; provide short-, medium-,  
+and long-term loans; operate extensive branch networks; serve  
+individuals and corporate organizations; highly regulated by the CBN.  
+  
+**Examples:** First Bank of Nigeria, United Bank for Africa, Zenith  
+Bank, Access Bank, Guaranty Trust Bank.  
+  
+### Merchant banks  
+  
+Specialized institutions providing banking services primarily to  
+corporations, governments, and high-net-worth individuals rather than  
+the general public.  
+  
+**Functions:** corporate finance (project financing, restructuring,  
+capital raising); investment banking (underwriting, managing public  
+offerings, M&A advisory); financial consultancy; portfolio management;  
+and foreign trade financing.  
+  
+**Characteristics:** institutional clients; specialized services;  
+large transaction sizes; investment-oriented operations.  
+  
+**Examples:** Coronation Merchant Bank, Rand Merchant Bank Nigeria,  
+FBNQuest Merchant Bank.  
+  
+**Economic significance:** supporting industrial development,  
+facilitating capital market growth, promoting large-scale investments,  
+and assisting corporate expansion.  
+  
+### Microfinance banks  
+  
+Specialized institutions providing financial services to low-income  
+earners, small businesses, rural dwellers, and the economically active  
+poor — introduced to improve financial inclusion and reduce poverty.  
+  
+**Objectives:** financial inclusion; poverty alleviation; SME support;  
+rural development; women's economic empowerment.  
+  
+**Functions:** microcredit provision to traders, farmers, artisans,  
+and small business owners; savings mobilization; financial literacy;  
+enterprise development; and rural banking services.  
+  
+**Examples:** LAPO Microfinance Bank, AB Microfinance Bank Nigeria,  
+Accion Microfinance Bank.  
+  
+**Challenges:** loan default, limited capital, poor infrastructure,  
+and weak financial literacy among clients.  
+  
+## Bank Structure and Ownership  
+  
+Bank ownership refers to the legal and financial arrangement through  
+which a bank is controlled.  
+  
+```{r ownership, echo=FALSE}  
+own <- data.frame(  
+  Type = c("Public sector", "Private", "Foreign", "Mixed"),  
+  Features = c("Government investment; public policy orientation; social development objectives",  
+               "Profit-oriented; market-driven decisions; strong competition",  
+               "Owned by foreign investors",  
+               "Shared control; public-private partnership"),  
+  Advantages = c("Financial stability; development focus",  
+                 "Efficiency; innovation; better customer service",  
+                 "Technology transfer; international expertise; capital inflow",  
+                 "Balanced objectives; greater resource mobilization"),  
+  Disadvantages = c("Political interference; operational inefficiency",  
+                    "Excessive profit motive; limited rural outreach",  
+                    "Profit repatriation; exposure to global shocks",  
+                    "—")  
+)  
+knitr::kable(own, caption = "Forms of bank ownership", booktabs = TRUE)  
+```  
+  
+### Organizational structure of banks  
+  
+- **Shareholders** — provide capital and elect directors  
+- **Board of Directors** — policy formulation and strategic direction  
+- **Managing Director/CEO** — leads executive management  
+- **Senior management** — executive directors, general managers,  
+  departmental heads  
+- **Functional departments:** Operations (daily transactions), Credit  
+  (lending), Treasury (liquidity and investment), Risk Management,  
+  Information Technology (digital banking), and Internal Audit  
+  (compliance and accountability)  
+  
+## The Universal Banking System  
+  
+::: {.definition #def-universal name="Universal banking"}  
+Universal banking is a banking system that permits banks to provide a  
+wide range of financial services under one institution — commercial  
+banking, investment banking, asset management, insurance-related  
+services, and financial advisory. A universal bank functions as a  
+"financial supermarket" where customers access multiple services under  
+one roof.  
+:::  
+  
+### Evolution in Nigeria  
+  
+The CBN introduced universal banking in 2001, allowing banks to  
+diversify into non-bank financial services. Objectives: promote  
+competitiveness, improve financial innovation, enhance profitability,  
+increase efficiency, and facilitate financial sector development.  
+  
+### Benefits  
+  
+1. *Economies of scale* — reduced operating costs through service  
+   integration.  
+2. *Revenue diversification* — income from multiple sources.  
+3. *Customer convenience* — various services from one institution.  
+4. *Improved financial innovation* — development of new products.  
+5. *Enhanced competitiveness* — locally and internationally.  
+  
+### Challenges  
+  
+1. *Increased risk exposure* — diversification raises operational  
+   complexity.  
+2. *Regulatory difficulties* — monitoring multiple activities is  
+   harder.  
+3. *Conflict of interest* — business units may pursue conflicting  
+   objectives.  
+4. *Systemic risk* — problems in one segment can affect the whole  
+   institution.  
+  
+::: {.rmdnote}  
+**Reform.** Following the 2008–2009 global financial crisis, the CBN  
+modified the universal banking framework, requiring banks to adopt a  
+holding company structure or focus on core banking. This produced  
+banking groups with subsidiaries in insurance, asset management,  
+pension administration, and investment banking.  
+:::  
+  
+## Contemporary Trends  
+  
+- **Digital banking** — mobile banking, internet banking, agency  
+  banking, and FinTech partnerships.  
+- **Financial inclusion** — expanding services to rural and  
+  underserved populations.  
+- **Regulatory reforms** — strengthening capital adequacy, corporate  
+  governance, and consumer protection.  
+- **Sustainable banking** — environmental, social, and governance  
+  (ESG) principles.  
+  
+### Challenges facing the Nigerian banking system  
+  
+1. Non-performing loans (NPLs)  
+2. Cybersecurity threats  
+3. Foreign exchange volatility  
+4. Inflationary pressures  
+5. Inadequate financial inclusion  
+6. Regulatory compliance costs  
+7. Economic instability  
+  
+## Summary  
+  
+The Nigerian banking system comprises commercial, merchant, and  
+microfinance banks, each playing unique roles in intermediation and  
+development. Ownership ranges across public, private, foreign, and  
+mixed arrangements. Universal banking expanded the scope of services  
+and competitiveness but introduced regulatory and risk challenges.  
+Digital transformation, financial inclusion, and regulatory reform  
+continue to shape the sector.  
+  
+## Discussion Questions {.unnumbered}  
+  
+1. Critically evaluate the role of commercial banks in Nigeria's  
+   economic development.  
+2. Compare and contrast commercial, merchant, and microfinance banks.  
+3. Examine the advantages and challenges of universal banking in  
+   Nigeria.  
+4. Discuss how ownership structure influences bank performance.  
+5. Assess the impact of digital banking on the Nigerian banking  
+   industry.  
+  
+## Recommended Reading {.unnumbered}  
+  
+- Rose, P. S., & Hudgins, S. C. *Bank Management and Financial  
+  Services*.  
+- Mishkin, F. S. *The Economics of Money, Banking and Financial  
+  Markets* [@mishkin].  
+- Ezirim, C. B. *Banking and Finance in Nigeria*.  
+- Anyanwu, J. C. *Monetary Economics: Theory, Policy and  
+  Institutions*.  
+- Publications of the Central Bank of Nigeria on banking regulation  
+  and supervision.

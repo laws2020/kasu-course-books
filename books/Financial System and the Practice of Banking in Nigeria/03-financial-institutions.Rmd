@@ -1,0 +1,219 @@
+# Financial Institutions in Nigeria {#chap-institutions}  
+  
+## Learning Objectives {-}  
+  
+At the end of this chapter, students should be able to:  
+  
+1. Explain the concept and importance of financial institutions.  
+2. Identify the various categories of financial institutions in Nigeria.  
+3. Discuss the operations and functions of Deposit Money Banks.  
+4. Examine the role of Non-Bank Financial Institutions.  
+5. Analyze the contributions of Development Finance Institutions to  
+   economic growth.  
+6. Evaluate the roles and functions of the Central Bank of Nigeria (CBN).  
+  
+## Introduction to Financial Institutions  
+  
+Financial institutions are organizations that facilitate the flow of  
+funds between surplus economic units (savers) and deficit economic  
+units (borrowers). They serve as intermediaries between individuals,  
+businesses, and governments, promoting efficient allocation of  
+financial resources.  
+  
+Financial institutions constitute the backbone of every modern  
+financial system because they:  
+  
+- Mobilize savings  
+- Facilitate investments  
+- Promote economic growth  
+- Provide payment services  
+- Support monetary policy implementation  
+- Enhance financial inclusion  
+  
+### Classification of financial institutions in Nigeria  
+  
+```{r fininst, echo=FALSE}  
+inst <- data.frame(  
+  Category = c("Banking institutions", "Non-banking financial institutions",  
+               "Development finance institutions"),  
+  Examples = c("CBN; Deposit Money Banks; merchant banks; non-interest banks",  
+               "Insurance companies; pension fund administrators; finance companies; mortgage institutions; microfinance banks; bureau de change operators",  
+               "Bank of Industry (BOI); Bank of Agriculture (BOA); NEXIM; Development Bank of Nigeria (DBN)")  
+)  
+knitr::kable(inst, caption = "Categories of financial institutions in Nigeria",  
+             booktabs = TRUE)  
+```  
+  
+## Deposit Money Banks {#sec-dmb}  
+  
+::: {.definition #def-dmb name="Deposit Money Banks"}  
+Deposit Money Banks (DMBs), commonly known as commercial banks, are  
+financial institutions licensed by the Central Bank of Nigeria to  
+accept deposits from the public and provide loans and other banking  
+services. They represent the largest segment of Nigeria's financial  
+system.  
+:::  
+  
+Examples include Access Bank Plc, United Bank for Africa Plc, Zenith  
+Bank Plc, First Bank of Nigeria Limited, and Guaranty Trust Bank.  
+  
+### Functions of Deposit Money Banks  
+  
+1. **Acceptance of deposits** — current accounts, savings accounts,  
+   and fixed deposits, mobilizing idle funds from the public.  
+2. **Provision of credit** — personal loans, business loans,  
+   overdrafts, and trade finance facilities, supporting investment and  
+   production.  
+3. **Payment and settlement services** — electronic transfers,  
+   cheques, mobile banking, internet banking, and POS transactions.  
+4. **Financial intermediation** — channelling savings into productive  
+   investments.  
+5. **Foreign exchange services** — foreign exchange transactions and  
+   international trade financing.  
+6. **Creation of credit** — through fractional reserve banking, banks  
+   create money by extending loans (see Section \@ref(sec-creditcreation)).  
+7. **Safe custody services** — vault facilities, safe deposit boxes,  
+   and custodial services.  
+  
+### Importance of Deposit Money Banks  
+  
+- **Economic growth** — banks provide the capital needed for  
+  investment and production.  
+- **Employment creation** — bank financing supports businesses that  
+  generate jobs.  
+- **Financial inclusion** — banks bring financial services closer to  
+  the population.  
+- **Monetary policy transmission** — the CBN implements monetary  
+  policy largely through DMBs.  
+  
+### Challenges facing Deposit Money Banks  
+  
+- Non-performing loans  
+- Cybersecurity threats  
+- Exchange rate volatility  
+- Regulatory compliance costs  
+- Financial crimes  
+- Economic instability  
+  
+## Non-Bank Financial Institutions {#sec-nbfi}  
+  
+::: {.definition #def-nbfi name="Non-Bank Financial Institutions"}  
+Non-Bank Financial Institutions (NBFIs) are financial intermediaries  
+that provide financial services but do not operate as full-fledged  
+commercial banks. They complement banking institutions by serving  
+specialized financial needs.  
+:::  
+  
+### Types of NBFIs  
+  
+**A. Insurance companies** provide protection against financial losses  
+arising from unforeseen events — life, health, fire, and marine  
+insurance. Functions: risk management, compensation for losses, and  
+long-term fund mobilization.  
+  
+**B. Pension Fund Administrators (PFAs)** manage retirement savings  
+under the Contributory Pension Scheme. Functions: pension fund  
+management, retirement planning, and investment of pension assets.  
+  
+**C. Microfinance banks** provide financial services to low-income  
+earners, small businesses, and rural populations. Functions:  
+microcredit provision, financial inclusion, and poverty reduction.  
+  
+**D. Mortgage banks** provide long-term housing finance. Functions:  
+mortgage loans, housing development, and real estate financing.  
+  
+**E. Finance companies** provide specialized lending services:  
+leasing, hire purchase, consumer finance, and equipment financing.  
+  
+**F. Bureau de Change operators** provide currency exchange and  
+foreign exchange transactions supporting international travel and  
+trade.  
+  
+### Importance of NBFIs  
+  
+- **Financial deepening** — they increase access to financial services.  
+- **Risk diversification** — they spread financial risks across sectors.  
+- **Support for SMEs** — they provide alternative financing sources.  
+- **Financial inclusion** — they serve unbanked and underserved  
+  populations.  
+  
+## Development Finance Institutions {#sec-dfi}  
+  
+::: {.definition #def-dfi name="Development Finance Institutions"}  
+Development Finance Institutions (DFIs) are specialized  
+government-supported institutions established to provide long-term  
+financing for strategic sectors of the economy. Their major objective  
+is developmental rather than profit maximization.  
+:::  
+  
+### Objectives of DFIs  
+  
+- Promote industrialization  
+- Encourage agricultural development  
+- Support exports  
+- Reduce poverty  
+- Enhance employment generation  
+- Promote SME development  
+  
+### Major DFIs in Nigeria  
+  
+```{r dfis, echo=FALSE}  
+dfi <- data.frame(  
+  Institution = c("Bank of Industry (BOI)", "Bank of Agriculture (BOA)",  
+                  "Nigerian Export-Import Bank (NEXIM)",  
+                  "Development Bank of Nigeria (DBN)"),  
+  Functions = c("Industrial financing; SME support; youth entrepreneurship funding; manufacturing development",  
+                "Agricultural loans; rural development financing; agricultural value chain support",  
+                "Export financing; export guarantees; foreign exchange earnings promotion",  
+                "Wholesale lending to financial institutions; SME financing support; capacity building")  
+)  
+knitr::kable(dfi, caption = "Major development finance institutions in Nigeria",  
+             booktabs = TRUE)  
+```  
+  
+### Importance of DFIs  
+  
+- **Industrial development** — supporting industrial expansion  
+- **Agricultural transformation** — improving agricultural productivity  
+- **SME growth** — providing affordable long-term financing  
+- **Employment generation** — investment projects create jobs  
+- **Economic diversification** — reducing dependence on crude oil  
+  revenues  
+  
+## The Central Bank of Nigeria {#sec-cbn809}  
+  
+::: {.rmdnote}  
+The Central Bank of Nigeria was established in 1958 and commenced  
+operations in 1959. It is the apex monetary authority responsible for  
+regulating Nigeria's financial system.  
+:::  
+  
+### Major functions of the CBN  
+  
+1. **Issuance of currency** — sole authority to issue legal tender in  
+   Nigeria.  
+2. **Formulation and implementation of monetary policy** — controlling  
+   money supply, interest rates, and credit availability to achieve  
+   price stability and economic growth.  
+3. **Banker to government** — maintains government accounts, manages  
+   public debt, and advises government on economic matters.  
+4. **Banker's bank** — supervises and regulates banks; provides  
+   liquidity support, settlement services, and lender-of-last-resort  
+   facilities.  
+5. **Financial system regulation** — ensures financial stability,  
+   sound banking practices, and consumer protection.  
+6. **Foreign exchange management** — manages external reserves,  
+   regulates foreign exchange markets, and stabilizes exchange rates.  
+7. **Financial inclusion promotion** — digital finance, agency  
+   banking, and rural banking initiatives.  
+8. **Management of external reserves** — supporting international  
+   trade, stabilizing the Naira, and meeting foreign obligations.  
+  
+### Monetary policy instruments of the CBN  
+  
+| Quantitative instruments | Qualitative instruments |  
+|:-------------------------|:------------------------|  
+| Open Market Operations (OMO) | Credit guidelines |  
+| Cash Reserve Ratio (CRR) | Moral suasion |  
+| Liquidity Ratio | Prudential regulations |  
+| Monetary Policy Rate (MPR) | |

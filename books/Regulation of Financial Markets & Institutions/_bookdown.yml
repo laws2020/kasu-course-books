@@ -1,0 +1,15 @@
+book_filename: "mfe813-regulation"  
+chapter_name: "Chapter "  
+output_dir: "_book"  
+new_session: yes  
+delete_merged_file: true  
+language:  
+  ui:  
+    chapter_name: "Chapter "  
+rmd_files:  
+  - "index.Rmd"  
+  - "01-nigerian-financial-system.Rmd"  
+  - "02-instability.Rmd"  
+  - "03-regulatory-institutions.Rmd"  
+  - "04-international.Rmd"  
+  - "05-appendix.Rmd"

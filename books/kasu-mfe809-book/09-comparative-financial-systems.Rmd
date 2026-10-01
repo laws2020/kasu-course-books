@@ -1,0 +1,56 @@
+# Comparative Financial Systems
+
+## Introduction
+
+Financial systems differ across countries because of differences in institutional structures, economic development, markets, regulation, and policy orientation.
+
+## Bank-Based and Market-Based Systems
+
+### Bank-Based Systems
+
+In a bank-based system, banks play a dominant role in financial intermediation and corporate financing. The supplied notes use Germany and Japan as examples.
+
+### Market-Based Systems
+
+In a market-based system, capital markets play a larger role in financing firms through instruments such as shares and bonds. The supplied notes use the United States and United Kingdom as examples.
+
+## Developed and Developing Financial Systems
+
+Developed financial systems tend to have deeper markets, more sophisticated instruments, stronger infrastructure, and extensive regulatory frameworks.
+
+Developing financial systems may face shallower markets, lower access to formal finance, infrastructure constraints, and greater exposure to macroeconomic shocks.
+
+## Formal and Informal Systems
+
+Formal systems rely on regulated institutions such as banks and insurance companies, while informal arrangements may rely on rotating savings groups, cooperatives, and money lenders.
+
+## Islamic and Conventional Financial Systems
+
+The supplied material contrasts Islamic and conventional finance, noting the Islamic prohibition of riba and the importance of profit-sharing structures in Islamic finance.
+
+## Financial System and Economic Development
+
+The relationship between financial development and economic growth can be studied through several perspectives.
+
+### Supply-Leading View
+
+Financial development can support investment and economic growth by improving the mobilization and allocation of savings.
+
+### Demand-Following View
+
+Economic growth can increase demand for financial services and thereby stimulate financial-sector development.
+
+### Bidirectional Relationship
+
+Financial development and economic growth may reinforce each other through investment, productivity, innovation, and access to finance.
+
+## Channels of Growth
+
+The supplied notes identify capital formation, technological innovation, efficient resource allocation, poverty reduction, and employment generation as channels through which financial systems can support development.
+
+## Review Questions
+
+1. Compare bank-based and market-based financial systems.
+2. Distinguish developed and developing financial systems.
+3. Explain the supply-leading and demand-following hypotheses.
+4. Discuss the relationship between financial development and economic growth in Nigeria.

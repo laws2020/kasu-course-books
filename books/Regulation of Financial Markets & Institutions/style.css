@@ -1,0 +1,12 @@
+.rmdnote {  
+  border-left: 4px solid #096B72;  
+  background: #f0f8f9;  
+  padding: 1em;  
+  margin: 1em 0;  
+}  
+.rmdwarning {  
+  border-left: 4px solid #c0392b;  
+  background: #fdf2f0;  
+  padding: 1em;  
+  margin: 1em 0;  
+}

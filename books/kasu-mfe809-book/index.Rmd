@@ -1,0 +1,101 @@
+---
+title: "Financial System and the Practice of Banking in Nigeria"
+subtitle: "MFE 809 — Course Book"
+author: "Dr. John Nkom"
+date: "2026"
+site: bookdown::bookdown_site
+---
+
+# About This Course
+
+**Course:** MFE 809  
+**Course title:** Financial System and the Practice of Banking in Nigeria  
+**Level:** Postgraduate (MSc/MBA)  
+**Credit units:** 3 Units  
+**Duration:** 12–15 Weeks  
+**Author:** Dr. John Nkom
+
+## Course Description
+
+This course provides an in-depth analysis of the Nigerian financial system, its structure, institutions, regulatory framework, and operational dynamics. It explores banking practices, financial intermediation, monetary policy, risk management, financial innovations, and contemporary issues affecting the Nigerian banking sector.
+
+## Course Objectives
+
+By the end of the course, students should be able to:
+
+1. Analyze the structure and functions of the Nigerian financial system.
+2. Evaluate the role of financial institutions in economic development.
+3. Examine banking operations and practices in Nigeria.
+4. Assess regulatory and supervisory frameworks.
+5. Understand monetary policy transmission mechanisms.
+6. Analyze risks in banking and financial institutions.
+7. Evaluate financial-sector reforms and innovations.
+
+## Learning Outcomes
+
+Students should be able to:
+
+- demonstrate advanced knowledge of financial intermediation;
+- critically evaluate banking policies and reforms in Nigeria;
+- apply analytical tools to financial-sector issues; and
+- conduct empirical and policy-based research.
+
+## Weekly Course Structure
+
+| Week | Topic |
+|---|---|
+| 1 | Overview of Financial Systems |
+| 2 | Structure of the Nigerian Financial System |
+| 3 | Financial Institutions in Nigeria |
+| 4 | Financial Markets in Nigeria |
+| 5 | Banking System in Nigeria |
+| 6 | Banking Operations and Practices |
+| 7 | Risk Management in Banking |
+| 8 | Regulation and Supervision of Banks |
+| 9 | Monetary Policy and Banking System |
+| 10 | Financial Intermediation and Inclusion |
+| 11 | Banking Reforms in Nigeria |
+| 12 | Electronic Banking and Financial Innovation |
+| 13 | International Banking and the Global Financial System |
+| 14 | Contemporary Issues in Nigerian Banking |
+| 15 | Student Presentations and Review |
+
+## Teaching Methods
+
+The course uses lectures, Nigerian banking-sector case studies, seminar presentations, data analysis, and empirical reviews.
+
+## Assessment
+
+- Continuous assessment: 30%
+  - assignments;
+  - class participation; and
+  - group presentations.
+- Final examination: 70%.
+
+## Practical Components
+
+Students may undertake:
+
+- analysis of Nigerian bank financial statements;
+- review of monetary-policy reports; and
+- case studies of banking crises in Nigeria.
+
+## Course Requirements
+
+Students are expected to attend regularly, participate in seminars, submit assignments, and complete a term paper on a Nigerian financial-system topic.
+
+## Optional Advanced Activities
+
+Advanced programmes may include econometric analysis of banking data, financial modelling, and policy-simulation exercises.
+
+# Preface
+
+This digital course book organizes the supplied MFE 809 course outline and lecture notes into a structured sequence of chapters for postgraduate study. The chapter organization is designed to improve navigation, revision, and later conversion into a university digital course-book collection.
+
+The material covers the Nigerian financial system from its basic meaning and functions through its historical evolution, institutions, markets, banking practices, regulation, monetary policy, risk management, reforms, innovation, and comparative perspectives.
+
+> **Editorial note:** The source notes contain some historical statements that would benefit from verification before formal institutional publication. In particular, dates and descriptions of some historical banking developments are presented differently in different portions of the supplied notes. This edition preserves the supplied teaching content while keeping such items identifiable for later academic review.
+
+# How to Use This Book
+
+Use the table of contents to move between chapters, and use the search function in the Bookdown toolbar to locate concepts such as financial intermediation, banking regulation, monetary policy, financial inclusion, or fintech.

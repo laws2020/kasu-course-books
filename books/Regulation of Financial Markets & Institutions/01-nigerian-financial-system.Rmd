@@ -1,0 +1,116 @@
+# The Nigerian Financial System {#chap-nfs}  
+  
+## Introduction  
+  
+Financial institutions — sometimes referred to as financial  
+intermediaries — are establishments engaged in some form of borrowing  
+and lending. The concept denotes the principal players in the  
+financial system: the commercial and merchant banks, specialized banks  
+including the Central Bank, and Non-Bank Financial Institutions  
+(NBFIs) such as insurance companies, stockbroking firms, finance  
+houses, and mortgage firms. Financial systems are so-called because  
+they engage in the core function of mobilising and channelling  
+financial resources for saving and investment purposes within the  
+economy.  
+  
+::: {.definition #def-reg name="Financial institutions regulation"}  
+Financial institutions regulation is the body of laws, rules,  
+directives and guidelines put in place by the state and regulatory  
+institutions for compliance by financial institutions within the  
+market. It involves statutory and/or supervisory regulation as well as  
+self-regulation.  
+:::  
+  
+## Overview of the Nigerian Banking Sector  
+  
+If there is anything that all well-meaning stakeholders in the  
+Nigerian banking industry look forward to, it is a banking sector that  
+is healthy and stable — one where investors, depositors, operators and  
+regulators can go to sleep with both eyes closed. To a large extent,  
+that was the nature of the industry from independence in 1960 until  
+the deregulation and liberalisation that began in the mid-1980s.  
+Things changed drastically with rounds of bank distress that claimed  
+37 banks between 1994 and 2003. The consequences for the economy have  
+been grave: loss of wealth, loss of public confidence, and monetary  
+management made more challenging by large amounts of currency  
+circulating outside the banking system.  
+  
+Factors contributing to the unhealthiness and instability of the  
+sector include:  
+  
+1. Unstable macroeconomic and fiscal policies  
+2. Unethical and unprofessional practices  
+3. Inadequate supervisory activities  
+  
+:::{.rmdnote}  
+Achieving a sound and stable banking industry demands that all  
+stakeholders — regulators, bank owners, managers, employees,  
+government, customers and the banking public — eschew actions against  
+that goal and conduct banking business according to the laws, rules  
+and customs.  
+:::  
+  
+## Nature of Financial Systems  
+  
+Financial systems have four distinguishing characteristics that  
+justify regulation:  
+  
+**i. Risk and uncertainty.** More than other economic activities,  
+financial operations concern the future and are characterised by risk  
+and uncertainty. The key services of the financial system consist in  
+trading risk and liquidity, so expectations play a major role in  
+pricing financial assets. Given limited information, market parties  
+adjust price expectations suddenly and collectively (*herd  
+behaviour*); together with low transaction costs this explains the  
+high volatility and inherent instability of financial markets.  
+  
+**ii. Asymmetric information.** Problems arise when market parties  
+have different information — an investor typically knows more about  
+the riskiness of his investment than the lender. This creates  
+*adverse selection* before a transaction (the "lemon premium" raises  
+loan rates so only risky projects get funded) and *moral hazard*  
+after it (costly verification that funds are used as intended).  
+Financial intermediaries arise to specialise in information on  
+borrowers — but the principal–agent relationship between creditors and  
+intermediaries involves similar information problems. Depositors, for  
+example, lack information about the riskiness of their bank's  
+portfolio — a key argument for regulation and supervision.  
+  
+**iii. Interdependence.** Financial markets and institutions are more  
+interdependent than other sectors. Events in one market or institution  
+can have important external effects on the whole financial system and  
+economy — producing *systemic risk*, amplified by herd behaviour.  
+  
+**iv. Money.** At the heart of the financial system lies a special  
+commodity: money. Its proper functioning depends on price stability,  
+and because money creation is profitable, an unregulated money supply  
+cannot be assumed to produce a stable price level. Since money is  
+created by the banking sector, a special need to control these  
+intermediaries arises.  
+  
+## History of Banking in Nigeria  
+  
+Orthodox banking business was introduced into Nigeria in 1892 by  
+expatriates who monopolised banking activity, accompanied by  
+discriminatory attitudes such that by 1927 indigenous banks had  
+accumulated huge debts. Before the Banking Ordinance of 1952, the  
+banking landscape was unregulated — a factor fingered in the first  
+banking distress, which by 1952 had claimed 21 of the 25 indigenous  
+banks.  
+  
+Despite the regulations that followed 1952, a second round of collapse  
+claimed 34 banks between 1994 and 2000, and other financial  
+institutions suffered even more severely. This experience — mirrored  
+by banking crises in many countries over the past two decades — makes  
+clear that Nigeria is not insulated from the crisis phenomenon, and  
+that the opportunities created by financial sector liberalisation and  
+globalisation carry attendant risks.  
+  
+Regulation is therefore necessary in banking to ensure probity,  
+integrity and responsibility. The scenario above predates the  
+introduction of **universal banking** in 2001, which broadened the  
+definition of banking business to include insurance, capital market  
+and investment management services. Internationally, too, the tide has  
+shifted: in the United States, after the bursting of the technology  
+bubble, the terrorism of September 11, 2001 and revelations of  
+corporate corruption, the era of regulation has gradually returned.

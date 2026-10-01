@@ -1,0 +1,85 @@
+---  
+title: "Regulation of Financial Markets & Institutions"  
+subtitle: "MFE 813 — First Semester Lecture Notes"  
+author: "Dr. Micah Dogara"  
+institute: "Department of Economics, Kaduna State University (KASU)"  
+date: "`r format(Sys.Date(), '%B %Y')`"  
+site: bookdown::bookdown_site  
+documentclass: book  
+bibliography: [book.bib]  
+biblio-style: apalike  
+link-citations: yes  
+colorlinks: yes  
+lot: yes  
+lof: yes  
+description: "MFE 813 lecture notes on the regulation of financial markets and institutions in Nigeria and internationally. Kaduna State University."  
+---  
+  
+```{r setup, include=FALSE}  
+knitr::opts_chunk$set(  
+  echo = TRUE, warning = FALSE, message = FALSE,  
+  fig.align = "center", out.width = "80%"  
+)  
+```  
+  
+# Course Information {-}  
+  
+| | |  
+|:---|:---|  
+| **Course code** | MFE 813 |  
+| **Course title** | Regulation of Financial Markets & Institutions |  
+| **Programme** | Masters in Financial Economics (MFE) |  
+| **Semester** | First Semester |  
+| **Institution** | Kaduna State University (KASU), Kaduna |  
+| **Lecturer** | Dr. Micah Dogara |  
+  
+# Welcome {-}  
+  
+These are the first-semester lecture notes for **MFE 813: Regulation  
+of Financial Markets & Institutions**, a course in the Masters in  
+Financial Economics programme at Kaduna State University. The course  
+examines how financial markets and institutions are regulated — in the  
+Nigerian domestic environment and in the international system.  
+  
+## What this book covers  
+  
+- **Chapter \@ref(chap-nfs) — The Nigerian Financial System**: the  
+  meaning of financial institutions and regulation, an overview of the  
+  banking sector, the nature of financial systems (risk, asymmetric  
+  information, interdependence, money), and the history of banking in  
+  Nigeria.  
+- **Chapter \@ref(chap-instability) — Instability and Regulatory  
+  Responses**: sources of instability in the banking system, the  
+  regulatory authorities' stabilisation efforts, emerging issues and  
+  challenges, and possible remedial actions.  
+- **Chapter \@ref(chap-domestic) — Domestic Regulatory  
+  Institutions**: the objectives of financial regulation and the roles  
+  of the CBN, NDIC, SEC, and NAICOM.  
+- **Chapter \@ref(chap-intl) — International Dimensions**:  
+  international financial market difficulties and the International  
+  Monetary Fund (IMF).  
+- **Appendix**: summary tables of regulators and full references.  
+  
+## Course outline {-}  
+  
+The course covers four policy study areas:  
+  
+1. Issues in the Nigerian financial system  
+2. Regulatory institutions in the domestic environment  
+   (CBN, NDIC, SEC, NAICOM)  
+3. International dimensions of financial regulation  
+   (IMF, World Bank, AfDB)  
+4. Economic stabilisation measures  
+   (monetary policy, fiscal policy, direct controls)  
+  
+:::{.rmdnote}  
+These notes are issued per semester. Units still to be added this  
+semester: the World Bank (IBRD), the African Development Bank, and the  
+economic stabilisation instruments.  
+:::  
+  
+:::{.rmdimportant}  
+These are lecture notes intended to support classroom teaching for MFE  
+813. They supplement — not replace — the readings listed in the  
+References section.  
+:::

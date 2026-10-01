@@ -1,0 +1,187 @@
+# Banking Operations and Practices {#chap-operations}  
+  
+## Learning Objectives {-}  
+  
+At the end of this chapter, students should be able to:  
+  
+1. Explain the concept and importance of deposit mobilization.  
+2. Analyze the process of credit creation in commercial banks.  
+3. Discuss lending principles and credit policies used by banks.  
+4. Interpret and evaluate bank balance sheets.  
+5. Understand the role of banking operations in financial  
+   intermediation.  
+  
+## Introduction to Banking Operations  
+  
+Banking operations refer to the day-to-day activities performed by  
+banks in mobilizing deposits, granting loans, facilitating payments,  
+managing risks, and providing financial services. Commercial banks  
+serve as financial intermediaries by collecting surplus funds from  
+savers and channelling them to borrowers for productive investment.  
+  
+Major banking functions include deposit collection, loan and credit  
+provision, payment services, foreign exchange transactions, investment  
+services, risk management, and financial advisory services.  
+  
+## Deposit Mobilization  
+  
+::: {.definition #def-depmob name="Deposit mobilization"}  
+Deposit mobilization is the process through which banks attract funds  
+from individuals, businesses, and government institutions for  
+safekeeping and investment purposes. It is one of the most important  
+functions of commercial banks because deposits constitute the major  
+source of loanable funds.  
+:::  
+  
+**Objectives:** increase lending resources; promote a savings culture;  
+enhance financial inclusion; support economic development; and improve  
+bank profitability.  
+  
+### Types of bank deposits  
+  
+```{r deposits, echo=FALSE}  
+dep <- data.frame(  
+  Type = c("Demand deposits", "Savings deposits", "Time (fixed) deposits"),  
+  Characteristics = c("Withdrawable on demand; high liquidity; usually no interest; suit businesses",  
+                      "Earn interest; limited withdrawal frequency; suit households",  
+                      "Fixed maturity; higher interest; low liquidity"),  
+  Examples = c("Current accounts, corporate accounts",  
+               "Savings accounts",  
+               "Fixed deposits, term deposits")  
+)  
+knitr::kable(dep, caption = "Types of bank deposits", booktabs = TRUE)  
+```  
+  
+### Strategies for deposit mobilization  
+  
+- *Attractive interest rates* — competitive returns to attract  
+  depositors.  
+- *Branch expansion* — opening branches in underserved areas.  
+- *Digital banking* — mobile, internet, USSD, and agency banking.  
+- *Customer relationship management* — satisfaction and loyalty.  
+- *Financial inclusion programs* — targeting previously unbanked  
+  populations.  
+  
+### Importance of deposit mobilization  
+  
+| To banks | To customers | To the economy |  
+|:---------|:-------------|:---------------|  
+| Provides lending funds | Safe custody of funds | Increases investment |  
+| Enhances profitability | Interest earnings | Promotes growth |  
+| Improves liquidity | Access to services | Encourages savings |  
+  
+## The Credit Creation Process {#sec-creditcreation}  
+  
+::: {.definition #def-creditcreate name="Credit creation"}  
+Credit creation is the ability of commercial banks to create money  
+through the lending process. Banks do not lend out all deposits  
+received; they keep a fraction as reserves and lend the remainder,  
+expanding the money supply in the economy.  
+:::  
+  
+### Mechanism of credit creation  
+  
+Assume an initial deposit of ₦1,000,000 and a reserve requirement of  
+10%:  
+  
+| Round | Deposit (₦) | Reserve (10%) | Loan created (₦) |  
+|------:|------------:|--------------:|-----------------:|  
+| 1 | 1,000,000 | 100,000 | 900,000 |  
+| 2 | 900,000 | 90,000 | 810,000 |  
+| 3 | 810,000 | 81,000 | 729,000 |  
+  
+The process continues until no further lending occurs.  
+  
+### The money multiplier  
+  
+\begin{equation}  
+m = \frac{1}{r}  
+(\#eq:multiplier)  
+\end{equation}  
+  
+where $m$ is the money multiplier and $r$ is the reserve ratio. With  
+$r = 0.10$, $m = 10$, so a ₦1 million deposit can potentially generate  
+₦10 million in total money supply (Equation \@ref(eq:multiplier)).  
+  
+### Factors affecting credit creation  
+  
+- **Internal:** excess reserves, bank liquidity position, lending  
+  policy, capital adequacy.  
+- **External:** central bank regulations, interest rates, economic  
+  conditions, public confidence.  
+  
+### Importance of credit creation  
+  
+Supports investment, promotes economic growth, facilitates business  
+expansion, increases employment, and enhances economic activity.  
+  
+## Lending Principles and Policies  
+  
+Bank lending is the provision of funds to individuals, firms, and  
+governments with the expectation of repayment plus interest — the  
+principal income-generating activity of banks.  
+  
+### Principles of good lending  
+  
+1. **Safety** — loans go to borrowers capable of repayment.  
+2. **Liquidity** — recoverable within a reasonable period.  
+3. **Profitability** — generate adequate returns.  
+4. **Diversification** — spread across sectors to reduce risk.  
+5. **Security** — backed by acceptable collateral.  
+  
+::: {.theorem #fives name="The Five Cs of Credit"}  
+Sound lending decisions assess **Character** (borrower's reputation  
+and integrity), **Capacity** (ability to repay), **Capital**  
+(financial strength), **Collateral** (assets pledged as security), and  
+**Conditions** (economic and industry conditions).  
+:::  
+  
+### Types of bank loans  
+  
+- *Short-term:* working capital loans, overdrafts  
+- *Medium-term:* equipment financing, vehicle financing  
+- *Long-term:* mortgage loans, infrastructure financing  
+  
+### Lending policies  
+  
+A lending policy guides credit decisions and includes loan approval  
+procedures, credit limits, interest rate determination, collateral  
+requirements, and loan monitoring procedures.  
+  
+## Bank Balance Sheet Analysis  
+  
+A balance sheet shows a bank's assets, liabilities, and shareholders'  
+equity at a specific date.  
+  
+- **Assets** (resources owned): cash reserves, treasury bills, loans  
+  and advances, investments, fixed assets.  
+- **Liabilities** (obligations owed): customer deposits, borrowings,  
+  accrued expenses.  
+- **Equity** (owners' funds): share capital, retained earnings,  
+  reserves.  
+  
+```{r balancesheet, echo=FALSE}  
+bs <- data.frame(  
+  Assets = c("Cash & reserves", "Loans & advances", "Investments",  
+             "Fixed assets", "**Total assets**"),  
+  `₦ million` = c(500, 3000, 1200, 300, 5000),  
+  `Liabilities & equity` = c("Deposits", "Borrowings", "Equity", "",  
+                             "**Total**"),  
+  `₦ million ` = c(3800, 500, 700, "", 5000)  
+)  
+knitr::kable(bs, caption = "Simplified bank balance sheet",  
+             booktabs = TRUE)  
+```  
+  
+### Key ratios  
+  
+\begin{equation}  
+LDR = \frac{\text{Loans}}{\text{Deposits}} \times 100  
+(\#eq:ldr)  
+\end{equation}  
+  
+The loan-to-deposit ratio (Equation \@ref(eq:ldr)) measures lending  
+aggressiveness. Other key ratios are the **capital adequacy ratio  
+(CAR)** — measuring solvency; the **liquidity ratio** — ability to  
+meet obligations; and the **non-performing loan (NPL) ratio** —  
+measuring asset quality.

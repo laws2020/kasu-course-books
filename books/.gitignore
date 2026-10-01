@@ -1,0 +1,19 @@
+# R / RStudio
+.Rhistory
+.RData
+.Rproj.user/
+
+# Quarto
+.quarto/
+**/*.quarto_ipynb
+
+# Bookdown generated output
+_book/
+_output/
+
+# Temporary / generated files
+*.html
+*.pdf
+
+# Quarto source files
+*.qmd

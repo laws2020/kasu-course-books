@@ -1,0 +1,54 @@
+# Banking System and Banking Practice
+
+## Types of Banks
+
+The supplied course outline identifies commercial banks, merchant banks, and microfinance banks as important categories within the Nigerian banking system.
+
+## Bank Structure and Ownership
+
+Banking institutions operate within legal, ownership, governance, capital, and supervisory structures. Understanding these structures is important for assessing bank performance and stability.
+
+## Banking Operations
+
+### Deposit Mobilization
+
+Banks mobilize deposits from households, businesses, and other organizations. Deposit mobilization provides a funding base for lending and investment activities.
+
+### Credit Creation
+
+Banks transform part of their deposit base into credit to borrowers, subject to liquidity, capital, risk-management, and regulatory constraints.
+
+### Lending Principles
+
+Sound lending requires assessment of borrower quality, repayment capacity, security, purpose of the loan, and overall portfolio risk.
+
+### Bank Balance Sheet Analysis
+
+A bank balance sheet can be examined through assets, liabilities, capital, liquidity, and asset quality. Key analytical questions concern the composition and quality of loans, funding structure, capital adequacy, and liquidity.
+
+## Banking Stability
+
+The supplied MFE 813 material identifies several sources of banking instability, including:
+
+- unstable macroeconomic and fiscal conditions;
+- unethical and unprofessional practices;
+- inadequate supervision;
+- information asymmetry;
+- weak management;
+- inappropriate corporate governance; and
+- inadequate regulatory and supervisory capacity.
+
+## Corporate Governance
+
+Effective corporate governance involves transparency, accountability, clear responsibilities, reliable reporting, internal controls, and compliance with applicable rules.
+
+## Bank Supervision
+
+The supplied MFE 813 notes refer to on-site and off-site supervision as important supervisory activities. Regulation and supervision are intended to reduce bank insolvency risk and strengthen the resilience of financial institutions.
+
+## Review Questions
+
+1. Explain deposit mobilization.
+2. What factors should banks consider when granting loans?
+3. Discuss the causes of banking instability identified in the course materials.
+4. Explain the role of corporate governance in banking.

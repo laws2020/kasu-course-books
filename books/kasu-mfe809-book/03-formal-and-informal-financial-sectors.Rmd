@@ -1,0 +1,82 @@
+# Formal and Informal Financial Sectors
+
+## Introduction
+
+The Nigerian financial system can be viewed as comprising formal and informal sectors. The distinction is useful for understanding differences in regulation, documentation, access, and the scale of financial activity.
+
+## Formal Financial Sector
+
+The formal financial sector consists of regulated institutions operating under established legal and supervisory frameworks.
+
+### Characteristics
+
+- legal registration;
+- regulatory supervision;
+- formal procedures;
+- accounting and reporting requirements; and
+- tax and compliance obligations.
+
+### Components
+
+The source material identifies:
+
+- commercial and deposit money banks;
+- merchant and development banks;
+- microfinance banks;
+- insurance companies;
+- pension institutions;
+- finance and mortgage institutions;
+- money markets;
+- capital markets; and
+- foreign-exchange markets.
+
+### Advantages
+
+The formal sector can provide safer custody of funds, access to larger pools of capital, formal regulation, monetary-policy channels, and support for economic growth.
+
+### Challenges
+
+The notes identify stringent credit conditions, high interest costs, bureaucratic processes, and limited rural access as possible disadvantages.
+
+## Informal Financial Sector
+
+The informal sector consists of financial activities outside the main formal regulatory framework.
+
+Examples include:
+
+- Esusu;
+- Ajo;
+- Adashe;
+- money lenders;
+- cooperative societies; and
+- daily contribution schemes.
+
+### Characteristics
+
+Informal arrangements often rely on trust and social relationships, flexible procedures, and limited documentation.
+
+### Advantages
+
+They can provide easy access to small loans, flexible repayment arrangements, and alternatives where collateral or formal banking access is limited.
+
+### Disadvantages
+
+The supplied notes identify limited capital, fraud risk, weak legal protection, and lack of formal regulation as important disadvantages.
+
+## Formal versus Informal Finance
+
+| Feature | Formal sector | Informal sector |
+|---|---|---|
+| Regulation | Regulated | Generally outside formal regulation |
+| Registration | Legally registered | Often unregistered |
+| Procedures | Formal | Flexible |
+| Capital base | Usually larger | Usually smaller |
+| Documentation | More extensive | Often minimal |
+| Organization | Institutions | Individuals or groups |
+
+## Review Questions
+
+1. Distinguish between formal and informal finance.
+2. Explain the advantages of the informal financial sector.
+3. Discuss the major components of the formal sector.
+4. Why does informal finance remain important in developing economies?

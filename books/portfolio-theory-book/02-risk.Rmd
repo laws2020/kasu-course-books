@@ -1,0 +1,178 @@
+# Risks on Investments {#chap-risk}  
+  
+The investment coin has two sides like any other coin. One side  
+represents the earning of returns and the other side embodies the  
+risks and dangers of not realizing our investment expectations. In  
+essence, we cannot consider return without also looking at risk — the  
+chance that the actual return from an investment may differ from what  
+is expected.  
+  
+## The Concept of Risk  
+  
+The risk associated with a given investment is directly related to its  
+expected return. In general, the broader the range of possible returns  
+associated with a given investment, the greater its risk, and vice  
+versa. Expressed in another way, riskier investments tend to provide  
+higher levels of return: the higher the risk, the higher the reward.  
+Otherwise, why would an investor risk his capital?  
+  
+::: {.definition #def-tradeoff name="Risk-return trade-off"}  
+Investors attempt to minimize risk for a given level of return, or to  
+maximize return for a given level of risk. This relationship is called  
+the *risk-return trade-off*.  
+:::  
+  
+## Sources of Risk  
+  
+The risk associated with an investment instrument may result from a  
+combination of possible sources. A prudent investor considers how the  
+major sources of risk might affect potential investment instruments.  
+Currency exchange rates should also be considered when investing  
+internationally. Table \@ref(tab:risks) summarizes the sources.  
+  
+### Business Risk  
+  
+Business risk is concerned with the degree of uncertainty associated  
+with the earnings of an investment and its ability to pay interest,  
+principal, dividends, and any other returns owed to investors. For  
+example, a firm may experience poor earnings and fail to pay investors  
+fully. Business owners may receive no return if earnings are not  
+adequate to meet obligations; debt holders are likely to receive some,  
+but not necessarily all, of the amount owed them, because of the  
+preferential treatment legally accorded to debt instrument holders.  
+  
+Much of the business risk of an instrument is related to its kind of  
+business. The business risk of a public utility common stock differs  
+from that of a high-fashion clothing manufacturer. Generally,  
+investments in similar kinds of firms have similar risk, although  
+management, costs, and location differ.  
+  
+### Financial Risk  
+  
+Financial risk is the degree of uncertainty of payment attributable to  
+the mix of debt and equity used to finance a firm or property. The  
+larger the proportion of debt, the greater the financial risk. Debt  
+financing obligates the firm to make interest payments and to repay  
+the debts; these fixed-payment obligations must be met before any  
+distribution of earnings to owners. Inability to meet these  
+obligations could result in business failure and losses for  
+bondholders as well as stockholders.  
+  
+## Purchasing Power Risk  
+  
+Purchasing power risk is the chance that changing price levels within  
+the economy (inflation or deflation) will adversely affect investment  
+returns — specifically, that rising prices will reduce the amount of a  
+given commodity that can be purchased with Naira.  
+  
+::: {.example #ex-oranges name="Purchasing power"}  
+If last year ₦1 could buy ten oranges, and this year ten oranges sell  
+for ₦2, then ₦1 can buy only five oranges. In a period of rising  
+prices the purchasing power of the Naira decreases, and vice versa.  
+:::  
+  
+Investments whose values move with general price levels have low  
+purchasing power risk and are most profitable during rising prices.  
+Those providing fixed returns have high purchasing power risk and are  
+most profitable during declining price levels or low inflation.  
+Returns on real and tangible personal property tend to move with the  
+general price level, whereas returns from deposit accounts and bonds  
+do not.  
+  
+### Interest Rate Risk  
+  
+Interest rate risk is the chance that changes in interest rates will  
+adversely affect the value of a security. Interest rate changes result  
+from changes in the relationship between the supply of and demand for  
+money. As interest rates change, the prices of many securities  
+fluctuate: they decrease when rates rise, and increase when rates  
+fall. The price of fixed-income securities such as bonds and preferred  
+stock drops when interest rates rise, so they provide purchasers with  
+the same rate of return available at prevailing rates. The reverse is  
+the case when rates fall.  
+  
+A second aspect concerns short-term securities such as Treasury bills,  
+certificates of deposit, commercial paper, and bankers' acceptances.  
+When these mature, proceeds may have to be reinvested in  
+lower-yielding securities. By making a long-term investment you can  
+lock in a return for years rather than face declining returns from a  
+short-term strategy. Fixed-income securities are most directly  
+affected by interest rate movements, followed by other long-term  
+securities such as common stock and property.  
+  
+### Liquidity Risk  
+  
+Liquidity risk is the risk of not being able to liquidate an  
+investment conveniently and at a reasonable price. Instruments traded  
+in a thin market, where demand and supply are small, tend to be less  
+liquid than those traded in broad markets. One can generally sell an  
+instrument by significantly reducing its price; but to be *liquid*, it  
+must be easily sold at a reasonable price.  
+  
+### Tax Risk  
+  
+Tax risk is the chance that the Federal Government will make  
+unfavourable changes in tax laws, driving down after-tax returns and  
+market values of certain investments. Undesirable changes include  
+elimination of tax exemptions, limitation of deductions, and increases  
+in tax rates. Virtually all investments are vulnerable to tax-rate  
+increases; municipal and other bonds, real estate, and natural  
+resources generally have greater tax risk.  
+  
+## Market Risk  
+  
+Market risk is the risk of a decline in investment returns because of  
+market factors independent of the given security or property.  
+Examples include political, economic, and social events as well as  
+changes in investor tastes and preferences. Market risk embodies a  
+number of different risks: purchasing power risk, interest rate risk,  
+and tax risk.  
+  
+The impact of market factors is not uniform — the degree and direction  
+of change differ among instruments. For example, restrictive import  
+quotas on foreign automobiles may significantly increase the value of  
+domestic automobiles. Market risk is expressed in the price volatility  
+of a security: the more volatile the price, the greater its perceived  
+market risk.  
+  
+### Event Risk  
+  
+Event risk comes from a largely or totally unexpected event that has a  
+significant and usually immediate effect on the underlying value of an  
+investment. It goes beyond business and financial risk: it does not  
+necessarily mean the company or market is doing poorly, but involves a  
+sudden, substantial impact on financial condition. Event risk can take  
+many forms and affect all types of instruments.  
+  
+## Components of Risk  
+  
+The risk of an investment consists of two components:  
+  
+- **Diversifiable risk** (unsystematic risk) results from  
+  uncontrollable or random events such as labour strikes, lawsuits,  
+  and regulatory actions. It is the portion of risk that can be  
+  eliminated through diversification.  
+- **Non-diversifiable risk** (systematic risk) is attributed to forces  
+  such as war, inflation, and political events that affect all  
+  investments and are not unique to a given instrument.  
+  
+The sum of non-diversifiable and diversifiable risk is **total risk**.  
+  
+```{r risks, echo=FALSE}  
+risks <- data.frame(  
+  Risk = c("Business", "Financial", "Purchasing power", "Interest rate",  
+           "Liquidity", "Tax", "Market", "Event"),  
+  Source = c("Uncertainty of earnings and ability to pay",  
+             "Debt/equity financing mix",  
+             "Inflation or deflation",  
+             "Changes in interest rates",  
+             "Thin markets; cannot sell at fair price",  
+             "Unfavourable changes in tax law",  
+             "Economy-wide political/economic/social factors",  
+             "Sudden unexpected events"),  
+  Diversifiable = c("Partly", "Partly", "No", "No", "Partly",  
+                    "Partly", "No", "Yes")  
+)  
+knitr::kable(risks, caption = "Sources of investment risk",  
+             booktabs = TRUE)  
+```

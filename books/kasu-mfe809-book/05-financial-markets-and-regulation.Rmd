@@ -1,0 +1,64 @@
+# Financial Markets and Regulation
+
+## Financial Markets
+
+Financial markets provide organized mechanisms for buying and selling financial assets.
+
+## Money Market
+
+The money market deals primarily in short-term funds and securities.
+
+Examples of instruments include:
+
+- Treasury bills;
+- commercial papers; and
+- certificates of deposit.
+
+Participants include banks, the Central Bank of Nigeria, and other money-market intermediaries.
+
+## Capital Market
+
+The capital market provides longer-term finance through instruments such as shares, bonds, and debentures.
+
+The supplied notes identify the Nigerian Exchange Group as a major part of the capital-market infrastructure.
+
+## Foreign-Exchange Market
+
+The foreign-exchange market supports international trade and provides a mechanism for currency exchange and exchange-rate determination.
+
+## Regulatory Institutions
+
+The source material identifies several major regulatory bodies.
+
+### Central Bank of Nigeria
+
+The supplied notes describe the CBN as responsible for monetary-policy formulation, currency issuance, banking supervision, and management of foreign reserves.
+
+### Nigeria Deposit Insurance Corporation
+
+The source notes describe NDIC as an institution concerned with depositor protection and banking-system stability, including deposit insurance and support for sound banking practices.
+
+### Securities and Exchange Commission
+
+The SEC is described in the supplied material as the apex regulator of the Nigerian capital market, with responsibilities including investor protection and capital-market development.
+
+The source notes also identify regulation of securities offerings, market surveillance, registration of capital-market operators, and action against market abuse as important functions.
+
+### National Insurance Commission
+
+NAICOM regulates insurance activities in Nigeria.
+
+### National Pension Commission
+
+PenCom regulates pension activities.
+
+## Objectives of Financial Regulation
+
+The supplied MFE 813 material emphasizes regulation as a mechanism for reducing instability, protecting users of financial services, strengthening supervision, supporting sound institutions, and maintaining confidence in financial markets.
+
+## Review Questions
+
+1. Distinguish the money market from the capital market.
+2. Explain the role of the foreign-exchange market.
+3. Discuss the functions of the CBN, NDIC, SEC, and NAICOM.
+4. Why is financial regulation important for financial stability?

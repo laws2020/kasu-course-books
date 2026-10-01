@@ -1,0 +1,129 @@
+# Financial Markets in Nigeria {#chap-markets}  
+  
+## Meaning of Financial Markets  
+  
+::: {.definition #def-finmarket name="Financial market"}  
+Financial markets are institutional arrangements through which  
+financial assets are created and exchanged, facilitating the transfer  
+of funds from savers to investors.  
+:::  
+  
+### Functions of financial markets  
+  
+- **Mobilization of savings** — encourages investment of surplus funds  
+- **Price discovery** — determines asset prices through demand and  
+  supply  
+- **Liquidity provision** — allows investors to convert assets into  
+  cash  
+- **Risk sharing** — facilitates diversification  
+- **Capital formation** — supports economic growth  
+  
+## Money Market versus Capital Market  
+  
+```{r moneymkt, echo=FALSE}  
+mm <- data.frame(  
+  Feature = c("Maturity", "Purpose", "Risk level", "Liquidity", "Instruments"),  
+  `Money market` = c("Less than one year", "Short-term financing",  
+                     "Lower", "High", "Treasury bills, commercial papers"),  
+  `Capital market` = c("More than one year", "Long-term financing",  
+                       "Higher", "Relatively lower", "Shares, bonds")  
+)  
+knitr::kable(mm, caption = "Money market vs capital market", booktabs = TRUE)  
+```  
+  
+### Money market  
+  
+A market for short-term financial instruments. Participants include  
+the CBN, commercial banks, government, corporations, and discount  
+houses. Functions: liquidity management, short-term financing, and  
+monetary policy implementation.  
+  
+### Capital market  
+  
+A market where long-term funds are raised and traded. Functions:  
+capital mobilization, economic development, and infrastructure  
+financing.  
+  
+## Primary and Secondary Markets  
+  
+**Primary market** — where new securities are issued for the first  
+time. Features: new securities are sold, issuing firms receive the  
+proceeds, and it facilitates capital raising. Examples: Initial Public  
+Offerings (IPOs), rights issues, and bond issues.  
+  
+**Secondary market** — facilitates trading of existing securities.  
+Features: investors buy and sell securities among themselves, issuing  
+companies do not receive funds, and it provides liquidity. Benefits:  
+liquidity, price discovery, and portfolio adjustment.  
+  
+## The Nigerian Exchange Group {#sec-ngx}  
+  
+The Nigerian Exchange Group (NGX Group) is the premier securities  
+exchange organization in Nigeria, evolved from the former Nigerian  
+Stock Exchange.  
+  
+### Functions of the NGX Group  
+  
+1. **Facilitates capital formation** — platform for raising long-term  
+   funds.  
+2. **Promotes investment** — encourages domestic and foreign  
+   investment.  
+3. **Provides liquidity** — allows investors to trade securities.  
+4. **Price discovery** — determines market prices.  
+5. **Corporate governance promotion** — ensures listed firms comply  
+   with disclosure requirements.  
+6. **Economic development** — supports private sector growth and  
+   industrialization.  
+  
+## Financial Instruments Traded  
+  
+### Money market instruments  
+  
+- **Treasury bills** — short-term government securities  
+- **Commercial papers** — short-term corporate debt instruments  
+- **Bankers' acceptances** — trade financing instruments  
+- **Certificates of deposit** — negotiable bank-issued deposit  
+  certificates  
+- **Repurchase agreements (repos)** — short-term borrowing  
+  arrangements  
+  
+### Capital market instruments  
+  
+- **Ordinary shares (equities)** — represent ownership in companies  
+- **Preference shares** — provide fixed dividend payments  
+- **Corporate bonds** — long-term debt securities issued by firms  
+- **Government bonds** — long-term government borrowing instruments  
+- **Sukuk bonds** — Islamic finance instruments  
+- **Exchange-Traded Funds (ETFs)** — diversified investment funds  
+  traded on exchanges  
+  
+## Summary  
+  
+Nigeria's financial system comprises a network of institutions and  
+markets that facilitate savings mobilization, investment, and economic  
+development. Deposit Money Banks dominate financial intermediation,  
+while NBFIs and DFIs provide specialized services. The CBN regulates  
+and stabilizes the system. Financial markets — money and capital —  
+provide avenues for raising and allocating funds, while the NGX Group  
+serves as the principal platform for securities trading and capital  
+formation.  
+  
+## Discussion Questions {.unnumbered}  
+  
+1. Discuss the role of Deposit Money Banks in Nigeria's economic  
+   development.  
+2. Differentiate between Deposit Money Banks and Non-Bank Financial  
+   Institutions.  
+3. Examine the importance of Development Finance Institutions in  
+   promoting industrialization.  
+4. Critically evaluate the role of the CBN in maintaining financial  
+   stability.  
+5. Distinguish between money markets and capital markets.  
+6. Explain the significance of primary and secondary markets.  
+7. Assess the contribution of the NGX Group to economic growth in  
+   Nigeria.  
+8. Discuss the major financial instruments traded in Nigerian  
+   financial markets.  
+9. Evaluate the challenges facing Nigeria's financial institutions and  
+   markets.  
+10. Suggest reforms for strengthening the Nigerian financial system.
